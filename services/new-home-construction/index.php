@@ -9,8 +9,8 @@ foreach ($services as $svc) {
     if ($svc['slug'] === 'new-home-construction') { $currentService = $svc; break; }
 }
 
-$pageTitle       = 'New Home Construction Bend OR | Custom Home Builder | ' . $siteName;
-$pageDescription = 'Marty Mar Construction builds custom homes in Bend, Redmond, Sisters, and Central Oregon. Licensed general contractor managing every phase from foundation to finish. Call ' . $phone . ' for a free estimate.';
+$pageTitle       = 'New Home Construction Eugene OR | Custom Home Builder | ' . $siteName;
+$pageDescription = 'Marty Mar Construction builds custom homes in Eugene, Springfield, Cottage Grove, and Lane County, Oregon. Licensed general contractor managing every phase from foundation to finish. Call ' . $phone . ' for a free estimate.';
 $canonicalUrl    = $siteUrl . '/services/new-home-construction/';
 $ogImage         = $currentService['image'];
 $currentPage     = 'services';
@@ -19,12 +19,12 @@ $cssVersion      = '4.1';
 
 // ── Page FAQs ─────────────────────────────────────────────────
 $pageFaqs = [
-    ['q' => 'How long does it take to build a new home in Bend, Oregon?', 'a' => 'Most custom homes in Bend take 8-14 months from breaking ground to move-in, depending on size, complexity, and weather. Severe winter conditions at elevation can shift exterior timelines by 2-4 weeks. We set a detailed schedule before work begins and update you weekly.'],
-    ['q' => 'How much does new home construction cost in Central Oregon?', 'a' => 'New construction in the Bend area typically runs $250-$450+ per square foot depending on finishes, site conditions, and design complexity. A 2,000 sq ft custom home generally ranges from $500,000 to $900,000. We provide a detailed written estimate after a site visit and plan review.'],
-    ['q' => 'Do you build on my lot or help find land in Bend?', 'a' => 'We build on lots you already own throughout Central Oregon. While we don\'t sell land, we can assess your lot for buildability — soil conditions, slope, access, utility connections, and Deschutes County setback requirements — before you commit to a purchase.'],
+    ['q' => 'How long does it take to build a new home in Eugene, Oregon?', 'a' => 'Most custom homes in Eugene take 8-14 months from breaking ground to move-in, depending on size, complexity, and weather. Extended rain during Oregon\'s wet season can shift exterior timelines by 2-4 weeks. We set a detailed schedule before work begins and update you weekly.'],
+    ['q' => 'How much does new home construction cost in the Eugene area?', 'a' => 'New construction in the Eugene area typically runs $250-$450+ per square foot depending on finishes, site conditions, and design complexity. A 2,000 sq ft custom home generally ranges from $500,000 to $900,000. We provide a detailed written estimate after a site visit and plan review.'],
+    ['q' => 'Do you build on my lot or help find land in Eugene?', 'a' => 'We build on lots you already own throughout Lane County. While we don\'t sell land, we can assess your lot for buildability — soil conditions, slope, access, utility connections, and Lane County setback requirements — before you commit to a purchase.'],
     ['q' => 'What is included in your new home construction estimate?', 'a' => 'Our estimates cover site preparation, foundation, framing, roofing, mechanical systems (HVAC, plumbing, electrical), insulation, drywall, interior finishes, cabinetry, flooring, painting, and final landscaping grading. Permits, inspections, and project management are included — no hidden fees.'],
-    ['q' => 'Does Marty Mar Construction handle building permits in Deschutes County?', 'a' => 'Yes. We pull all required permits through Deschutes County, the City of Bend, or the applicable jurisdiction. We coordinate every inspection from foundation to final certificate of occupancy so you don\'t have to manage the bureaucracy.'],
-    ['q' => 'Can you build energy-efficient homes for Central Oregon winters?', 'a' => 'Absolutely. Every home we build meets or exceeds Oregon energy code. We use advanced framing techniques, high-R insulation, low-E windows, and sealed building envelopes designed for Bend\'s freeze-thaw cycles and 250+ days of sunshine. Heat pump systems and radiant floor heating are popular options.'],
+    ['q' => 'Does Marty Mar Construction handle building permits in Lane County?', 'a' => 'Yes. We pull all required permits through Lane County, the City of Eugene, or the applicable jurisdiction. We coordinate every inspection from foundation to final certificate of occupancy so you don\'t have to manage the bureaucracy.'],
+    ['q' => 'Can you build energy-efficient homes for Oregon\'s wet winters?', 'a' => 'Absolutely. Every home we build meets or exceeds Oregon energy code. We use advanced framing techniques, high-R insulation, low-E windows, and sealed building envelopes designed for Eugene\'s heavy rainfall and moisture exposure. Heat pump systems and radiant floor heating are popular options.'],
 ];
 
 // ── Schema Markup ─────────────────────────────────────────────
@@ -528,8 +528,8 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       <span class="breadcrumb-sep" aria-hidden="true">/</span>
       <span aria-current="page">New Home Construction</span>
     </nav>
-    <h1>New Home Construction in <span class="text-accent">Bend, Oregon</span></h1>
-    <p class="hero-answer"><?php echo htmlspecialchars($siteName); ?> is a licensed general contractor in Bend, OR, building custom homes from foundation to finish across Central Oregon. We manage every phase — site prep, framing, mechanical, and interiors — with hands-on oversight and transparent pricing for homeowners in Bend, Redmond, Sisters, and surrounding communities.</p>
+    <h1>New Home Construction in <span class="text-accent">Eugene, Oregon</span></h1>
+    <p class="hero-answer"><?php echo htmlspecialchars($siteName); ?> is a licensed general contractor in Eugene, OR, building custom homes from foundation to finish across Lane County. We manage every phase — site prep, framing, mechanical, and interiors — with hands-on oversight and transparent pricing for homeowners in Eugene, Springfield, Cottage Grove, and surrounding communities.</p>
 
     <div class="hero-ctas">
       <a href="/contact/" class="btn-primary"><i data-lucide="file-text" aria-hidden="true"></i> Get a Free Estimate</a>
@@ -539,7 +539,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
     <div class="hero-trust">
       <span><i data-lucide="shield-check" aria-hidden="true"></i> Licensed &amp; Insured</span>
       <span><i data-lucide="calendar" aria-hidden="true"></i> Since <?php echo $yearEstablished; ?></span>
-      <span><i data-lucide="map-pin" aria-hidden="true"></i> Central Oregon</span>
+      <span><i data-lucide="map-pin" aria-hidden="true"></i> Eugene &amp; Lane County</span>
     </div>
   </div>
 
@@ -561,20 +561,20 @@ $breadcrumbSchema = generateBreadcrumbSchema([
     <div class="content-grid">
       <div class="content-text reveal-up">
         <span class="eyebrow-label">Custom Home Building</span>
-        <h2>What Does Custom Home Construction <span class="text-accent">Include</span> in Bend?</h2>
-        <p class="answer-block">Custom home construction in Bend includes everything from site preparation and foundation work to framing, roofing, mechanical systems, interior finishes, and final inspections. Marty Mar Construction manages every trade and permit so you get a move-in-ready home built to Oregon code and Central Oregon climate standards.</p>
+        <h2>What Does Custom Home Construction <span class="text-accent">Include</span> in Eugene?</h2>
+        <p class="answer-block">Custom home construction in Eugene includes everything from site preparation and foundation work to framing, roofing, mechanical systems, interior finishes, and final inspections. Marty Mar Construction manages every trade and permit so you get a move-in-ready home built to Oregon code and Willamette Valley climate standards.</p>
 
-        <p class="identity-sentence"><?php echo htmlspecialchars($siteName); ?> is a licensed Oregon general contractor based in Bend, serving homeowners across Central Oregon with full-service new home construction since <?php echo $yearEstablished; ?>.</p>
+        <p class="identity-sentence"><?php echo htmlspecialchars($siteName); ?> is a licensed Oregon general contractor based in Eugene, serving homeowners across Lane County with full-service new home construction since <?php echo $yearEstablished; ?>.</p>
 
-        <p>Building a new home in Central Oregon means engineering for conditions Portland builders never deal with. Bend sits at 3,600 feet with freeze-thaw cycles that crack weak foundations, snow loads that stress undersized framing, and 300 days of UV that degrades cheap exterior finishes within five years. Every home we build accounts for these realities — from the footer depth to the roof pitch to the insulation R-value.</p>
+        <p>Building a new home in the Willamette Valley means engineering for conditions that dry-climate builders never deal with. Eugene averages 47 inches of rain annually, with persistent moisture that demands proper drainage, waterproofing, and mold-resistant construction practices. Every home we build accounts for these realities — from the foundation drainage to the roof pitch to the vapor barrier details.</p>
 
-        <p>We work with your architect or help you select plans that fit your lot, your budget, and Deschutes County requirements. Our project management approach means you talk directly to Marty — not a rotating crew of subcontractor middlemen — from the first site walk to the final walkthrough.</p>
+        <p>We work with your architect or help you select plans that fit your lot, your budget, and Lane County requirements. Our project management approach means you talk directly to Marty — not a rotating crew of subcontractor middlemen — from the first site walk to the final walkthrough.</p>
 
         <p>Last updated: <?php echo date('F Y'); ?></p>
       </div>
 
       <div class="content-image reveal-right">
-        <img src="<?php echo htmlspecialchars($clientPhotos[29]); ?>" alt="New home construction project by Marty Mar Construction in Bend, Oregon" width="600" height="750" loading="lazy">
+        <img src="<?php echo htmlspecialchars($clientPhotos[29]); ?>" alt="New home construction project by Marty Mar Construction in Eugene, Oregon" width="600" height="750" loading="lazy">
         <div class="stat-row">
           <div class="stat-item">
             <div class="stat-number" data-target="<?php echo $yearsInBusiness; ?>">0</div>
@@ -612,12 +612,12 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       <div class="process-step reveal-up reveal-delay-1">
         <div class="process-step__number">1</div>
         <h3>Design &amp; Permits</h3>
-        <p>Plan review, site assessment, Deschutes County permits, and budget finalization before any dirt moves.</p>
+        <p>Plan review, site assessment, Lane County permits, and budget finalization before any dirt moves.</p>
       </div>
       <div class="process-step reveal-up reveal-delay-2">
         <div class="process-step__number">2</div>
         <h3>Foundation &amp; Site Work</h3>
-        <p>Excavation, footer pours, foundation walls, and utility connections — engineered for Bend's freeze-thaw soil conditions.</p>
+        <p>Excavation, footer pours, foundation walls, and utility connections — engineered for Eugene's rain-saturated Willamette Valley soil conditions.</p>
       </div>
       <div class="process-step reveal-up reveal-delay-3">
         <div class="process-step__number">3</div>
@@ -647,14 +647,14 @@ $breadcrumbSchema = generateBreadcrumbSchema([
   <div class="container">
     <div class="why-service__grid">
       <div class="why-service__image reveal-left">
-        <img src="<?php echo htmlspecialchars($clientPhotos[1]); ?>" alt="Marty Mar Construction crew working on a custom home project in Central Oregon" width="500" height="625" loading="lazy">
+        <img src="<?php echo htmlspecialchars($clientPhotos[1]); ?>" alt="Marty Mar Construction crew working on a custom home project in Eugene, Oregon" width="500" height="625" loading="lazy">
       </div>
 
       <div class="why-service__points">
         <div class="section-title reveal-up">
           <span class="eyebrow-label">Why Marty Mar</span>
           <h2>Why Choose Marty Mar for Your <span class="text-accent">New Home Build</span>?</h2>
-          <p class="answer-block">Bend homeowners choose Marty Mar Construction for new builds because of direct owner communication, transparent itemized pricing, <?php echo $yearsInBusiness; ?>+ years of Central Oregon building experience, and construction methods specifically engineered for high-desert elevation conditions.</p>
+          <p class="answer-block">Eugene homeowners choose Marty Mar Construction for new builds because of direct owner communication, transparent itemized pricing, <?php echo $yearsInBusiness; ?>+ years of Oregon building experience, and construction methods specifically engineered for the Willamette Valley's wet climate.</p>
         </div>
 
         <div class="why-point reveal-right reveal-delay-1">
@@ -666,10 +666,10 @@ $breadcrumbSchema = generateBreadcrumbSchema([
         </div>
 
         <div class="why-point reveal-right reveal-delay-2">
-          <div class="why-point__icon"><i data-lucide="mountain-snow" aria-hidden="true"></i></div>
+          <div class="why-point__icon"><i data-lucide="cloud-rain" aria-hidden="true"></i></div>
           <div>
-            <h3>Built for 3,600-Foot Elevation</h3>
-            <p>Snow-load framing, freeze-cycle foundations, UV-resistant exteriors, and insulation specs designed for Bend's 250+ sunny days and cold winters.</p>
+            <h3>Built for the Willamette Valley</h3>
+            <p>Moisture-resistant construction, proper drainage systems, mold-prevention detailing, and insulation specs designed for Eugene's heavy rainfall and wet winters.</p>
           </div>
         </div>
 
@@ -685,7 +685,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
           <div class="why-point__icon"><i data-lucide="clipboard-check" aria-hidden="true"></i></div>
           <div>
             <h3>Full Permit &amp; Inspection Management</h3>
-            <p>We pull all Deschutes County and City of Bend permits, coordinate every inspection, and deliver your certificate of occupancy.</p>
+            <p>We pull all Lane County and City of Eugene permits, coordinate every inspection, and deliver your certificate of occupancy.</p>
           </div>
         </div>
       </div>
@@ -707,8 +707,8 @@ $breadcrumbSchema = generateBreadcrumbSchema([
   <div class="container">
     <div class="section-title reveal-up">
       <span class="eyebrow-label">Common Questions</span>
-      <h2>What Do Homeowners Ask About <span class="text-accent">Building in Bend</span>?</h2>
-      <p class="answer-block">Homeowners considering new construction in Bend typically ask about timelines, costs, lot buildability, permits, and energy efficiency. Below are the questions we hear most from clients across Central Oregon — with direct answers.</p>
+      <h2>What Do Homeowners Ask About <span class="text-accent">Building in Eugene</span>?</h2>
+      <p class="answer-block">Homeowners considering new construction in Eugene typically ask about timelines, costs, lot buildability, permits, and energy efficiency. Below are the questions we hear most from clients across Lane County — with direct answers.</p>
     </div>
 
     <div class="faq-list">
@@ -731,7 +731,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
     <div class="section-title reveal-up">
       <span class="eyebrow-label">More Services</span>
       <h2>What Other <span class="text-accent">Construction Services</span> Do We Offer?</h2>
-      <p class="answer-block">Beyond new home construction, Marty Mar Construction offers room additions, whole-home remodeling, kitchen and bathroom renovations, and custom deck building across Central Oregon. Every service includes licensed tradespeople, direct communication, and transparent pricing.</p>
+      <p class="answer-block">Beyond new home construction, Marty Mar Construction offers room additions, whole-home remodeling, kitchen and bathroom renovations, and custom deck building across the Eugene area. Every service includes licensed tradespeople, direct communication, and transparent pricing.</p>
     </div>
 
     <div class="related-grid">
@@ -741,7 +741,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
           'remodeling-renovations' => ['Whole-home transformations', 'Structural and cosmetic work', 'On-schedule, on-budget delivery'],
           'bathroom-remodeling'    => ['Walk-in showers and soaking tubs', 'Custom tile and vanity work', 'Full gut or targeted upgrades'],
           'kitchen-remodeling'     => ['Custom cabinetry and countertops', 'Layout and structural changes', 'Lighting and appliance planning'],
-          'deck-outdoor-structures'=> ['Composite and timber options', 'Engineered for Oregon snow loads', 'Pergolas, porches, and shade structures'],
+          'deck-outdoor-structures'=> ['Composite and timber options', 'Engineered for Oregon rain and moisture', 'Pergolas, porches, and shade structures'],
       ];
       $related = array_filter($services, fn($s) => $s['slug'] !== 'new-home-construction');
       $related = array_slice($related, 0, 3);
@@ -753,7 +753,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       ?>
       <article class="service-card-with-image card-tint-<?php echo $tint; ?> reveal-up reveal-delay-<?php echo $delay; ?>">
         <div class="service-card__image">
-          <img src="<?php echo htmlspecialchars($svc['image']); ?>" alt="<?php echo htmlspecialchars($svc['name']); ?> in Bend, Oregon" width="600" height="360" loading="lazy">
+          <img src="<?php echo htmlspecialchars($svc['image']); ?>" alt="<?php echo htmlspecialchars($svc['name']); ?> in Eugene, Oregon" width="600" height="360" loading="lazy">
         </div>
         <div class="service-card__body">
           <div class="service-card__icon"><i data-lucide="<?php echo htmlspecialchars($svc['icon']); ?>"></i></div>

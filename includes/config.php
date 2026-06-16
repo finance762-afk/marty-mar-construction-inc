@@ -8,7 +8,7 @@
 $slug        = 'marty-mar-construction-inc';
 $clientSlug  = $slug;
 $siteName    = 'Marty Mar Construction Inc';
-$tagline     = 'Central Oregon\'s General Contractor Since 2007';
+$tagline     = 'Eugene\'s General Contractor Since 2007';
 $ownerName   = 'Marty Mar';
 $industry    = 'general_contractor';
 $tier        = 'standard';
@@ -24,9 +24,9 @@ $contactPhone   = $phone;
 // ── Address ───────────────────────────────────────────────────
 $address = [
     'street' => '',
-    'city'   => 'Bend',
+    'city'   => 'Eugene',
     'state'  => 'OR',
-    'zip'    => '97701',
+    'zip'    => '97401',
 ];
 $businessAddress = $address;
 
@@ -59,20 +59,20 @@ $colors = [
 ];
 
 // ── SEO ───────────────────────────────────────────────────────
-$primaryKeyword    = 'general contractor Bend OR';
+$primaryKeyword    = 'general contractor Eugene OR';
 $secondaryKeywords = [
-    'construction company Bend Oregon',
-    'general contractor Bend Oregon',
-    'home builder Bend OR',
-    'new home construction Bend OR',
-    'home remodeling Bend Oregon',
-    'bathroom remodel Bend OR',
-    'kitchen remodeling Bend Oregon',
-    'deck builder Bend OR',
-    'home additions Bend Oregon',
-    'contractor near Bend OR',
-    'construction Redmond Oregon',
-    'general contractor Central Oregon',
+    'construction company Eugene Oregon',
+    'general contractor Eugene Oregon',
+    'home builder Eugene OR',
+    'new home construction Eugene OR',
+    'home remodeling Eugene Oregon',
+    'bathroom remodel Eugene OR',
+    'kitchen remodeling Eugene Oregon',
+    'deck builder Eugene OR',
+    'home additions Eugene Oregon',
+    'contractor near Eugene OR',
+    'construction Springfield Oregon',
+    'general contractor Lane County Oregon',
 ];
 
 // ── Services ──────────────────────────────────────────────────
@@ -80,13 +80,13 @@ $services = [
     [
         'name'        => 'New Home Construction',
         'slug'        => 'new-home-construction',
-        'description' => 'Full custom home construction from foundation to finish. We build new single-family homes across Central Oregon, managing every phase — framing, roofing, mechanical, and interior — with licensed tradespeople and hands-on oversight.',
+        'description' => 'Full custom home construction from foundation to finish. We build new single-family homes across the Eugene area and Lane County, managing every phase — framing, roofing, mechanical, and interior — with licensed tradespeople and hands-on oversight.',
         'keywords'    => [
-            'new home construction Bend OR',
-            'custom home builder Bend Oregon',
-            'build new house Bend OR',
-            'home builder near me Bend',
-            'custom homes Central Oregon',
+            'new home construction Eugene OR',
+            'custom home builder Eugene Oregon',
+            'build new house Eugene OR',
+            'home builder near me Eugene',
+            'custom homes Lane County Oregon',
         ],
         'image'       => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/marty-mar-construction-inc/photos/1778860982357-ubm5do-641437517_122104619199262704_1682165859110000150_n.jpg',
         'icon'        => 'home',
@@ -96,11 +96,11 @@ $services = [
         'slug'        => 'home-additions',
         'description' => 'Need more space? We design and build room additions, second-story expansions, and accessory structures that tie seamlessly into your existing home — matching materials, rooflines, and interior finishes.',
         'keywords'    => [
-            'home additions Bend Oregon',
-            'room addition contractor Bend OR',
-            'second story addition Bend',
-            'house expansion Central Oregon',
-            'add bedroom Bend OR',
+            'home additions Eugene Oregon',
+            'room addition contractor Eugene OR',
+            'second story addition Eugene',
+            'house expansion Lane County Oregon',
+            'add bedroom Eugene OR',
         ],
         'image'       => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/marty-mar-construction-inc/photos/1778860950545-7ze15j-639883447_122104619223262704_1584417455874598961_n.jpg',
         'icon'        => 'building-2',
@@ -110,11 +110,11 @@ $services = [
         'slug'        => 'remodeling-renovations',
         'description' => 'From single-room refreshes to whole-home transformations, our remodeling crew handles structural changes, finish work, flooring, and everything in between — on schedule and within your budget.',
         'keywords'    => [
-            'home remodeling Bend Oregon',
-            'home renovation contractor Bend OR',
-            'remodeling company Bend Oregon',
-            'house renovation Bend OR',
-            'general remodeling Central Oregon',
+            'home remodeling Eugene Oregon',
+            'home renovation contractor Eugene OR',
+            'remodeling company Eugene Oregon',
+            'house renovation Eugene OR',
+            'general remodeling Lane County Oregon',
         ],
         'image'       => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/marty-mar-construction-inc/photos/1778860960786-ahkw94-642320821_122105087187262704_8280704753595649872_n.jpg',
         'icon'        => 'hammer',
@@ -124,11 +124,11 @@ $services = [
         'slug'        => 'bathroom-remodeling',
         'description' => 'Transform your bathroom with custom tile work, walk-in showers, soaking tubs, floating vanities, and updated plumbing. We handle full gut-and-rebuild or targeted upgrades — master baths, guest baths, and powder rooms.',
         'keywords'    => [
-            'bathroom remodel Bend OR',
-            'bathroom renovation Bend Oregon',
-            'tile shower remodel Bend OR',
-            'master bath upgrade Bend',
-            'bathroom contractor Central Oregon',
+            'bathroom remodel Eugene OR',
+            'bathroom renovation Eugene Oregon',
+            'tile shower remodel Eugene OR',
+            'master bath upgrade Eugene',
+            'bathroom contractor Lane County Oregon',
         ],
         'image'       => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/marty-mar-construction-inc/photos/1778860973717-n65yo0-629564984_122096303907262704_4092186127556615464_n.jpg',
         'icon'        => 'bath',
@@ -138,11 +138,11 @@ $services = [
         'slug'        => 'kitchen-remodeling',
         'description' => 'Update your kitchen with new cabinetry, countertops, appliance cutouts, lighting, and layout changes. Whether you want a cosmetic refresh or a full structural rebuild, we do it right the first time.',
         'keywords'    => [
-            'kitchen remodel Bend OR',
-            'kitchen renovation Bend Oregon',
-            'custom kitchen Bend OR',
-            'kitchen contractor Central Oregon',
-            'cabinet installation Bend OR',
+            'kitchen remodel Eugene OR',
+            'kitchen renovation Eugene Oregon',
+            'custom kitchen Eugene OR',
+            'kitchen contractor Lane County Oregon',
+            'cabinet installation Eugene OR',
         ],
         'image'       => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/marty-mar-construction-inc/photos/1778860956266-b8llqh-678998195_122115100209262704_438394711220212323_n.jpg',
         'icon'        => 'utensils',
@@ -150,13 +150,13 @@ $services = [
     [
         'name'        => 'Deck & Outdoor Structures',
         'slug'        => 'deck-outdoor-structures',
-        'description' => 'Extend your living space outdoors with custom decks, covered porches, pergolas, and timber-frame structures built for Central Oregon\'s climate — engineered for snow loads, UV exposure, and year-round use.',
+        'description' => 'Extend your living space outdoors with custom decks, covered porches, pergolas, and timber-frame structures built for Oregon\'s climate — engineered for rain, moisture management, and year-round use.',
         'keywords'    => [
-            'deck builder Bend OR',
-            'deck construction Bend Oregon',
-            'covered porch Bend OR',
-            'pergola builder Central Oregon',
-            'outdoor structure contractor Bend',
+            'deck builder Eugene OR',
+            'deck construction Eugene Oregon',
+            'covered porch Eugene OR',
+            'pergola builder Lane County Oregon',
+            'outdoor structure contractor Eugene',
         ],
         'image'       => 'https://db.pageone.cloud/storage/v1/object/public/client-assets/marty-mar-construction-inc/photos/1778860975667-mmvi02-630624886_122096307141262704_460531819733276418_n.jpg',
         'icon'        => 'layout-grid',
@@ -166,46 +166,46 @@ $services = [
 // ── Service Areas ─────────────────────────────────────────────
 $serviceAreas = [
     [
-        'city'    => 'Bend',
+        'city'    => 'Eugene',
         'state'   => 'OR',
-        'zip'     => '97701',
+        'zip'     => '97401',
         'primary' => true,
-        'slug'    => 'bend-or',
+        'slug'    => 'eugene-or',
     ],
     [
-        'city'    => 'Redmond',
+        'city'    => 'Springfield',
         'state'   => 'OR',
-        'zip'     => '97756',
+        'zip'     => '97477',
         'primary' => false,
-        'slug'    => 'redmond-or',
+        'slug'    => 'springfield-or',
     ],
     [
-        'city'    => 'Sisters',
+        'city'    => 'Cottage Grove',
         'state'   => 'OR',
-        'zip'     => '97759',
+        'zip'     => '97424',
         'primary' => false,
-        'slug'    => 'sisters-or',
+        'slug'    => 'cottage-grove-or',
     ],
     [
-        'city'    => 'Sunriver',
+        'city'    => 'Junction City',
         'state'   => 'OR',
-        'zip'     => '97707',
+        'zip'     => '97448',
         'primary' => false,
-        'slug'    => 'sunriver-or',
+        'slug'    => 'junction-city-or',
     ],
     [
-        'city'    => 'La Pine',
+        'city'    => 'Veneta',
         'state'   => 'OR',
-        'zip'     => '97739',
+        'zip'     => '97487',
         'primary' => false,
-        'slug'    => 'la-pine-or',
+        'slug'    => 'veneta-or',
     ],
     [
-        'city'    => 'Prineville',
+        'city'    => 'Creswell',
         'state'   => 'OR',
-        'zip'     => '97754',
+        'zip'     => '97426',
         'primary' => false,
-        'slug'    => 'prineville-or',
+        'slug'    => 'creswell-or',
     ],
 ];
 
@@ -221,23 +221,23 @@ $formAction = 'https://db.pageone.cloud/functions/v1/leads/marty-mar-constructio
 // ── Content / USPs ────────────────────────────────────────────
 $usps = [
     'Licensed & Insured in Oregon',
-    'Serving Central Oregon Since 2007',
+    'Serving Eugene & Lane County Since 2007',
     'Free Project Estimates',
     'Residential & Commercial',
 ];
 
 $differentiators = [
-    'Licensed general contractor with ' . $yearsInBusiness . '+ years building across Central Oregon',
+    'Licensed general contractor with ' . $yearsInBusiness . '+ years building across Eugene and Lane County',
     'Full-service: new construction, additions, remodeling, and specialty trades under one roof',
     'Hands-on project management — no subcontractor runaround, direct communication throughout',
-    'Built for Oregon\'s climate: snow-load framing, freeze-cycle foundations, UV-resistant finishes',
+    'Built for Oregon\'s climate: moisture-resistant construction, proper drainage, and durable finishes',
     'Transparent pricing and honest timelines — no surprise change orders',
 ];
 
 $faqs = [
     [
-        'q' => 'What areas do you serve in Central Oregon?',
-        'a' => 'We serve Bend, Redmond, Sisters, Sunriver, La Pine, Prineville, and surrounding communities throughout Central Oregon. Most of our work is within a 40-mile radius of Bend.',
+        'q' => 'What areas do you serve in the Eugene area?',
+        'a' => 'We serve Eugene, Springfield, Cottage Grove, Junction City, Veneta, Creswell, and surrounding communities throughout Lane County. Most of our work is within a 30-mile radius of Eugene.',
     ],
     [
         'q' => 'Are you licensed and insured in Oregon?',
@@ -253,7 +253,7 @@ $faqs = [
     ],
     [
         'q' => 'Do you handle permits?',
-        'a' => 'Yes. We pull all required building permits through Deschutes County, the City of Bend, or the applicable jurisdiction and coordinate inspections from start to final sign-off.',
+        'a' => 'Yes. We pull all required building permits through Lane County, the City of Eugene, or the applicable jurisdiction and coordinate inspections from start to final sign-off.',
     ],
 ];
 

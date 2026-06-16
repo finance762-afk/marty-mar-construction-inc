@@ -9,8 +9,8 @@ foreach ($services as $svc) {
     if ($svc['slug'] === 'home-additions') { $currentService = $svc; break; }
 }
 
-$pageTitle       = 'Home Additions Bend OR | Room Addition Contractor | ' . $siteName;
-$pageDescription = 'Marty Mar Construction builds room additions, second-story expansions, and ADU conversions in Bend, Redmond, and Central Oregon. Licensed contractor since ' . $yearEstablished . '. Call ' . $phone . ' for a free estimate.';
+$pageTitle       = 'Home Additions Eugene OR | Room Addition Contractor | ' . $siteName;
+$pageDescription = 'Marty Mar Construction builds room additions, second-story expansions, and ADU conversions in Eugene, Springfield, and Lane County, Oregon. Licensed contractor since ' . $yearEstablished . '. Call ' . $phone . ' for a free estimate.';
 $canonicalUrl    = $siteUrl . '/services/home-additions/';
 $ogImage         = $currentService['image'];
 $currentPage     = 'services';
@@ -19,11 +19,11 @@ $cssVersion      = '4.1';
 
 // ── Page FAQs ─────────────────────────────────────────────────
 $pageFaqs = [
-    ['q' => 'How much does a home addition cost in Bend, Oregon?', 'a' => 'Home additions in Bend typically cost $200-$400+ per square foot depending on the scope, finishes, and structural complexity. A 400 sq ft bedroom addition generally runs $80,000-$160,000. We provide a detailed written estimate after assessing your home and project requirements.'],
-    ['q' => 'Do I need a permit for a room addition in Deschutes County?', 'a' => 'Yes. Any structural addition in Deschutes County requires a building permit, plan review, and multiple inspections. Marty Mar Construction handles all permitting through the County or City of Bend, including structural engineering, setback calculations, and inspection coordination.'],
-    ['q' => 'How long does a home addition take to build in Central Oregon?', 'a' => 'Most room additions in Bend take 8-16 weeks from permit approval to completion, depending on size and complexity. Second-story additions typically take 12-20 weeks. Winter weather at elevation can add 2-4 weeks to exterior phases — we plan for that upfront.'],
+    ['q' => 'How much does a home addition cost in Eugene, Oregon?', 'a' => 'Home additions in Eugene typically cost $200-$400+ per square foot depending on the scope, finishes, and structural complexity. A 400 sq ft bedroom addition generally runs $80,000-$160,000. We provide a detailed written estimate after assessing your home and project requirements.'],
+    ['q' => 'Do I need a permit for a room addition in Lane County?', 'a' => 'Yes. Any structural addition in Lane County requires a building permit, plan review, and multiple inspections. Marty Mar Construction handles all permitting through the County or City of Eugene, including structural engineering, setback calculations, and inspection coordination.'],
+    ['q' => 'How long does a home addition take to build in the Eugene area?', 'a' => 'Most room additions in Eugene take 8-16 weeks from permit approval to completion, depending on size and complexity. Second-story additions typically take 12-20 weeks. Rainy weather during Oregon\'s wet season can add 2-4 weeks to exterior phases — we plan for that upfront.'],
     ['q' => 'Can you match the addition to my existing home exterior?', 'a' => 'Yes — that is a core part of what we do. We match siding materials, rooflines, trim profiles, window styles, and paint colors so the addition looks like it was part of the original build. Inside, we match flooring, baseboards, and ceiling heights for a seamless transition.'],
-    ['q' => 'What types of home additions do you build?', 'a' => 'We build single-room bedroom or office additions, second-story expansions, bump-outs for kitchens and bathrooms, garage conversions, attached ADUs (accessory dwelling units), and sunroom enclosures. Each project is designed to fit your home\'s footprint and Deschutes County zoning requirements.'],
+    ['q' => 'What types of home additions do you build?', 'a' => 'We build single-room bedroom or office additions, second-story expansions, bump-outs for kitchens and bathrooms, garage conversions, attached ADUs (accessory dwelling units), and sunroom enclosures. Each project is designed to fit your home\'s footprint and Lane County zoning requirements.'],
 ];
 
 // ── Schema Markup ─────────────────────────────────────────────
@@ -303,8 +303,8 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       <a href="/services/">Services</a><span class="breadcrumb-sep" aria-hidden="true">/</span>
       <span aria-current="page">Home Additions</span>
     </nav>
-    <h1>Home Additions in <span class="text-accent">Bend, Oregon</span></h1>
-    <p class="hero-answer"><?php echo htmlspecialchars($siteName); ?> designs and builds room additions, second-story expansions, and accessory dwelling units for homeowners across Bend, Redmond, Sisters, and Central Oregon. We match new construction to your existing home's materials, rooflines, and interior finishes — so the addition looks like it was always there.</p>
+    <h1>Home Additions in <span class="text-accent">Eugene, Oregon</span></h1>
+    <p class="hero-answer"><?php echo htmlspecialchars($siteName); ?> designs and builds room additions, second-story expansions, and accessory dwelling units for homeowners across Eugene, Springfield, Cottage Grove, and Lane County. We match new construction to your existing home's materials, rooflines, and interior finishes — so the addition looks like it was always there.</p>
     <div class="hero-ctas">
       <a href="/contact/" class="btn-primary"><i data-lucide="file-text" aria-hidden="true"></i> Get a Free Estimate</a>
       <a href="tel:<?php echo $phonePlain; ?>" class="btn-secondary btn-secondary--light"><i data-lucide="phone" aria-hidden="true"></i> Call <?php echo $phone; ?></a>
@@ -312,7 +312,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
     <div class="hero-trust">
       <span><i data-lucide="shield-check" aria-hidden="true"></i> Licensed &amp; Insured</span>
       <span><i data-lucide="calendar" aria-hidden="true"></i> Since <?php echo $yearEstablished; ?></span>
-      <span><i data-lucide="map-pin" aria-hidden="true"></i> Central Oregon</span>
+      <span><i data-lucide="map-pin" aria-hidden="true"></i> Eugene &amp; Lane County</span>
     </div>
   </div>
   <div class="section-divider section-divider--bottom">
@@ -331,18 +331,18 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       <div class="split-text reveal-up">
         <span class="eyebrow-label">Expand Your Space</span>
         <h2>What Types of <span class="text-accent">Home Additions</span> Does Marty Mar Build?</h2>
-        <p class="answer-block">Marty Mar Construction builds bedroom additions, second-story expansions, bump-outs, garage conversions, attached ADUs, and sunroom enclosures throughout Bend and Central Oregon. Each addition is structurally integrated with your existing home and designed to meet current Deschutes County building codes.</p>
+        <p class="answer-block">Marty Mar Construction builds bedroom additions, second-story expansions, bump-outs, garage conversions, attached ADUs, and sunroom enclosures throughout Eugene and Lane County. Each addition is structurally integrated with your existing home and designed to meet current Lane County building codes.</p>
 
-        <p class="identity-sentence"><?php echo htmlspecialchars($siteName); ?> is a licensed Oregon general contractor based in Bend, building room additions and home expansions across Central Oregon since <?php echo $yearEstablished; ?>.</p>
+        <p class="identity-sentence"><?php echo htmlspecialchars($siteName); ?> is a licensed Oregon general contractor based in Eugene, building room additions and home expansions across Lane County since <?php echo $yearEstablished; ?>.</p>
 
-        <p>Adding square footage to an existing home in Bend demands more precision than building from scratch. Your new addition has to tie into the existing roof structure, match siding profiles that may no longer be standard stock, and connect to plumbing and electrical systems that were designed for a smaller footprint. Get any of that wrong and you end up with a visible seam — inside and out — that drops your home's value instead of raising it.</p>
+        <p>Adding square footage to an existing home in Eugene demands more precision than building from scratch. Your new addition has to tie into the existing roof structure, match siding profiles that may no longer be standard stock, and connect to plumbing and electrical systems that were designed for a smaller footprint. Get any of that wrong and you end up with a visible seam — inside and out — that drops your home's value instead of raising it.</p>
 
         <p>We start every addition project with a structural assessment of your existing home. We evaluate foundation capacity, framing condition, roof tie-in angles, and utility routing before drawing a single line. That upfront work means fewer surprises during construction and a finished product that looks intentional, not bolted on.</p>
 
         <p>Last updated: <?php echo date('F Y'); ?></p>
       </div>
       <div class="split-image reveal-right">
-        <img src="<?php echo htmlspecialchars($clientPhotos[0]); ?>" alt="Home addition construction project by Marty Mar Construction in Bend, Oregon" width="600" height="500" loading="lazy">
+        <img src="<?php echo htmlspecialchars($clientPhotos[0]); ?>" alt="Home addition construction project by Marty Mar Construction in Eugene, Oregon" width="600" height="500" loading="lazy">
       </div>
     </div>
   </div>
@@ -359,7 +359,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
   <div class="container">
     <div class="section-title reveal-up">
       <span class="eyebrow-label">Addition Types</span>
-      <h2>Which Addition Type Is Right for Your <span class="text-accent">Bend Home</span>?</h2>
+      <h2>Which Addition Type Is Right for Your <span class="text-accent">Eugene Home</span>?</h2>
       <p class="answer-block">The right addition type depends on your lot size, zoning setbacks, existing foundation, and how you plan to use the new space. Single-story additions are fastest and most affordable; second-story additions maximize square footage without expanding your footprint; ADUs create independent living quarters.</p>
     </div>
     <div class="types-grid">
@@ -393,8 +393,8 @@ $breadcrumbSchema = generateBreadcrumbSchema([
   <div class="container">
     <div class="section-title reveal-up">
       <span class="eyebrow-label">Our Process</span>
-      <h2>How Does the Home Addition <span class="text-accent">Process Work</span> in Bend?</h2>
-      <p class="answer-block">Our home addition process follows four stages: structural assessment and design, permitting through Deschutes County, construction with weekly progress updates, and final inspection with walkthrough. Direct communication with Marty at every stage — no middlemen.</p>
+      <h2>How Does the Home Addition <span class="text-accent">Process Work</span> in Eugene?</h2>
+      <p class="answer-block">Our home addition process follows four stages: structural assessment and design, permitting through Lane County, construction with weekly progress updates, and final inspection with walkthrough. Direct communication with Marty at every stage — no middlemen.</p>
     </div>
     <div class="process-cards">
       <div class="process-card reveal-up reveal-delay-1">
@@ -405,7 +405,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       <div class="process-card reveal-up reveal-delay-2">
         <div class="process-card__num">02</div>
         <h3>Permits &amp; Engineering</h3>
-        <p>Pull Deschutes County building permits, submit structural engineering, and coordinate plan review with the building department.</p>
+        <p>Pull Lane County building permits, submit structural engineering, and coordinate plan review with the building department.</p>
       </div>
       <div class="process-card reveal-up reveal-delay-3">
         <div class="process-card__num">03</div>
@@ -432,8 +432,8 @@ $breadcrumbSchema = generateBreadcrumbSchema([
   <div class="container">
     <div class="section-title reveal-up">
       <span class="eyebrow-label">Common Questions</span>
-      <h2>What Do Homeowners Ask About <span class="text-accent">Room Additions</span> in Bend?</h2>
-      <p class="answer-block">Homeowners considering a room addition in Bend typically ask about costs, permits, timelines, and whether the addition will match their existing home. Below are the questions we hear most — with direct answers from our team.</p>
+      <h2>What Do Homeowners Ask About <span class="text-accent">Room Additions</span> in Eugene?</h2>
+      <p class="answer-block">Homeowners considering a room addition in Eugene typically ask about costs, permits, timelines, and whether the addition will match their existing home. Below are the questions we hear most — with direct answers from our team.</p>
     </div>
     <div class="faq-list">
       <?php foreach ($pageFaqs as $i => $faq): ?>
@@ -453,16 +453,16 @@ $breadcrumbSchema = generateBreadcrumbSchema([
     <div class="section-title reveal-up">
       <span class="eyebrow-label">More Services</span>
       <h2>What Other <span class="text-accent">Construction Services</span> Do We Offer?</h2>
-      <p class="answer-block">Beyond home additions, Marty Mar Construction handles new home construction, whole-home remodeling, kitchen and bathroom renovations, and custom deck building across Central Oregon. Every project includes direct communication and transparent pricing.</p>
+      <p class="answer-block">Beyond home additions, Marty Mar Construction handles new home construction, whole-home remodeling, kitchen and bathroom renovations, and custom deck building across the Eugene area. Every project includes direct communication and transparent pricing.</p>
     </div>
     <div class="related-grid">
       <?php
       $relatedBullets = [
-          'new-home-construction'  => ['Custom floor plans for your lot', 'Foundation-to-finish oversight', 'Snow-load rated framing'],
+          'new-home-construction'  => ['Custom floor plans for your lot', 'Foundation-to-finish oversight', 'Moisture-resistant construction'],
           'remodeling-renovations' => ['Whole-home transformations', 'Structural and cosmetic work', 'On-schedule, on-budget delivery'],
           'bathroom-remodeling'    => ['Walk-in showers and soaking tubs', 'Custom tile and vanity work', 'Full gut or targeted upgrades'],
           'kitchen-remodeling'     => ['Custom cabinetry and countertops', 'Layout and structural changes', 'Lighting and appliance planning'],
-          'deck-outdoor-structures'=> ['Composite and timber options', 'Engineered for Oregon snow loads', 'Pergolas, porches, and shade structures'],
+          'deck-outdoor-structures'=> ['Composite and timber options', 'Engineered for Oregon rain and moisture', 'Pergolas, porches, and shade structures'],
       ];
       $related = array_filter($services, fn($s) => $s['slug'] !== 'home-additions');
       $related = array_values($related);
@@ -474,7 +474,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       ?>
       <article class="service-card-with-image card-tint-<?php echo $tint; ?> reveal-up reveal-delay-<?php echo $i + 1; ?>">
         <div class="service-card__image">
-          <img src="<?php echo htmlspecialchars($svc['image']); ?>" alt="<?php echo htmlspecialchars($svc['name']); ?> in Bend, Oregon" width="600" height="360" loading="lazy">
+          <img src="<?php echo htmlspecialchars($svc['image']); ?>" alt="<?php echo htmlspecialchars($svc['name']); ?> in Eugene, Oregon" width="600" height="360" loading="lazy">
         </div>
         <div class="service-card__body">
           <div class="service-card__icon"><i data-lucide="<?php echo htmlspecialchars($svc['icon']); ?>"></i></div>

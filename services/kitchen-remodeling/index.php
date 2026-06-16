@@ -9,8 +9,8 @@ foreach ($services as $svc) {
     if ($svc['slug'] === 'kitchen-remodeling') { $currentService = $svc; break; }
 }
 
-$pageTitle       = 'Kitchen Remodeling Bend OR | Kitchen Renovation | ' . $siteName;
-$pageDescription = 'Marty Mar Construction remodels kitchens in Bend, Redmond, Sisters, and Central Oregon. Custom cabinetry, countertops, layout changes, and appliance planning. Licensed since ' . $yearEstablished . '. Call ' . $phone . '.';
+$pageTitle       = 'Kitchen Remodeling Eugene OR | Kitchen Renovation | ' . $siteName;
+$pageDescription = 'Marty Mar Construction remodels kitchens in Eugene, Springfield, Cottage Grove, and Lane County, Oregon. Custom cabinetry, countertops, layout changes, and appliance planning. Licensed since ' . $yearEstablished . '. Call ' . $phone . '.';
 $canonicalUrl    = $siteUrl . '/services/kitchen-remodeling/';
 $ogImage         = $currentService['image'];
 $currentPage     = 'services';
@@ -19,10 +19,10 @@ $cssVersion      = '4.1';
 
 // ── Page FAQs ─────────────────────────────────────────────────
 $pageFaqs = [
-    ['q' => 'How much does a kitchen remodel cost in Bend, Oregon?', 'a' => 'Kitchen remodel costs in Bend range from $20,000-$45,000 for a cosmetic refresh (countertops, paint, hardware) to $50,000-$120,000 for a mid-range renovation with new cabinets, countertops, and appliances. Full gut remodels with layout changes run $100,000-$200,000+.'],
-    ['q' => 'How long does a kitchen renovation take in Central Oregon?', 'a' => 'A cosmetic kitchen refresh takes 2-4 weeks. Mid-range renovations with cabinet replacement run 6-10 weeks. Full gut remodels with structural changes, new plumbing, and electrical take 10-16 weeks. Custom cabinet lead times can add 4-8 weeks — we order before demo to minimize downtime.'],
+    ['q' => 'How much does a kitchen remodel cost in Eugene, Oregon?', 'a' => 'Kitchen remodel costs in Eugene range from $20,000-$45,000 for a cosmetic refresh (countertops, paint, hardware) to $50,000-$120,000 for a mid-range renovation with new cabinets, countertops, and appliances. Full gut remodels with layout changes run $100,000-$200,000+.'],
+    ['q' => 'How long does a kitchen renovation take in the Eugene area?', 'a' => 'A cosmetic kitchen refresh takes 2-4 weeks. Mid-range renovations with cabinet replacement run 6-10 weeks. Full gut remodels with structural changes, new plumbing, and electrical take 10-16 weeks. Custom cabinet lead times can add 4-8 weeks — we order before demo to minimize downtime.'],
     ['q' => 'Can you remove a wall to open up my kitchen?', 'a' => 'Yes. We regularly remove walls between kitchens and living or dining areas to create open-concept floor plans. Load-bearing wall removal requires a structural engineer\'s beam design, which we coordinate. The result is properly supported with an LVL or steel beam hidden in the ceiling.'],
-    ['q' => 'What countertop materials work best in Bend kitchens?', 'a' => 'Quartz is the most popular choice for Bend kitchens — it\'s non-porous, UV-stable (important with Bend\'s 300 sunny days), and doesn\'t need sealing. Granite remains a durable choice. Butcher block works well for secondary prep surfaces. We help you select materials that fit your cooking habits and maintenance preferences.'],
+    ['q' => 'What countertop materials work best in Eugene kitchens?', 'a' => 'Quartz is the most popular choice for Eugene kitchens — it\'s non-porous, stain-resistant, and doesn\'t need sealing. Granite remains a durable choice. Butcher block works well for secondary prep surfaces. We help you select materials that fit your cooking habits and maintenance preferences.'],
     ['q' => 'Do you install kitchen appliances during the remodel?', 'a' => 'Yes. We coordinate appliance cutouts, utility connections (gas, electric, water), and ventilation routing for ranges, refrigerators, dishwashers, and range hoods. We can work with appliances you\'ve purchased or help you spec units that fit the layout.'],
     ['q' => 'Does Marty Mar handle kitchen plumbing and electrical?', 'a' => 'Yes. Under our general contractor license, we coordinate licensed plumbers and electricians for sink relocation, dishwasher hookups, garbage disposal, new circuits for appliances, under-cabinet lighting, and dedicated outlet runs for islands and countertops.'],
 ];
@@ -322,8 +322,8 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       <a href="/services/">Services</a><span class="breadcrumb-sep" aria-hidden="true">/</span>
       <span aria-current="page">Kitchen Remodeling</span>
     </nav>
-    <h1>Kitchen Remodeling in <span class="text-accent">Bend, Oregon</span></h1>
-    <p class="hero-answer"><?php echo htmlspecialchars($siteName); ?> remodels kitchens across Bend, Redmond, Sisters, and Central Oregon. We handle cabinetry, countertops, layout changes, appliance planning, lighting, and structural modifications — from cosmetic refreshes to full gut renovations with open-concept floor plans.</p>
+    <h1>Kitchen Remodeling in <span class="text-accent">Eugene, Oregon</span></h1>
+    <p class="hero-answer"><?php echo htmlspecialchars($siteName); ?> remodels kitchens across Eugene, Springfield, Cottage Grove, and Lane County. We handle cabinetry, countertops, layout changes, appliance planning, lighting, and structural modifications — from cosmetic refreshes to full gut renovations with open-concept floor plans.</p>
     <div class="hero-ctas">
       <a href="/contact/" class="btn-primary"><i data-lucide="file-text" aria-hidden="true"></i> Get a Free Estimate</a>
       <a href="tel:<?php echo $phonePlain; ?>" class="btn-secondary btn-secondary--light"><i data-lucide="phone" aria-hidden="true"></i> Call <?php echo $phone; ?></a>
@@ -331,7 +331,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
     <div class="hero-trust">
       <span><i data-lucide="shield-check" aria-hidden="true"></i> Licensed &amp; Insured</span>
       <span><i data-lucide="calendar" aria-hidden="true"></i> Since <?php echo $yearEstablished; ?></span>
-      <span><i data-lucide="map-pin" aria-hidden="true"></i> Central Oregon</span>
+      <span><i data-lucide="map-pin" aria-hidden="true"></i> Eugene &amp; Lane County</span>
     </div>
   </div>
   <div class="section-divider section-divider--bottom">
@@ -350,13 +350,13 @@ $breadcrumbSchema = generateBreadcrumbSchema([
         <h2>What's Included in a <span class="text-accent">Kitchen Remodel</span> With Marty Mar?</h2>
         <p class="answer-block">A kitchen remodel with Marty Mar Construction includes demolition, structural modifications, cabinet installation, countertop fabrication, plumbing and electrical updates, appliance hookups, flooring, lighting, backsplash tile, and painting. We manage every trade and deliver a written schedule before work begins.</p>
 
-        <p class="identity-sentence"><?php echo htmlspecialchars($siteName); ?> is a licensed Oregon general contractor based in Bend, remodeling kitchens across Central Oregon since <?php echo $yearEstablished; ?>.</p>
+        <p class="identity-sentence"><?php echo htmlspecialchars($siteName); ?> is a licensed Oregon general contractor based in Eugene, remodeling kitchens across Lane County since <?php echo $yearEstablished; ?>.</p>
 
-        <p>The kitchen is the most complex room in your home — more trades, more utility connections, and more daily-use pressure than any other space. A successful kitchen remodel in Bend requires coordinating cabinetmakers, countertop fabricators, plumbers, electricians, tile setters, and flooring crews in the right sequence. Miss the sequence and you waste weeks waiting for one trade to redo what another trade covered up.</p>
+        <p>The kitchen is the most complex room in your home — more trades, more utility connections, and more daily-use pressure than any other space. A successful kitchen remodel in Eugene requires coordinating cabinetmakers, countertop fabricators, plumbers, electricians, tile setters, and flooring crews in the right sequence. Miss the sequence and you waste weeks waiting for one trade to redo what another trade covered up.</p>
 
         <p>We start with a site visit to measure your existing kitchen, assess structural conditions (especially if you want to remove a wall), and map existing plumbing and electrical. From there we develop a scope of work with material selections, timeline, and detailed pricing. You see the full cost before we pull a single permit.</p>
 
-        <p>Whether you're updating a builder-grade galley kitchen in NorthWest Crossing or gutting a 1980s layout in River West, we tailor every remodel to your cooking style, storage needs, and daily routine.</p>
+        <p>Whether you're updating a builder-grade galley kitchen in the Ferry Street Bridge area or gutting a 1980s layout in the South Hills, we tailor every remodel to your cooking style, storage needs, and daily routine.</p>
 
         <p>Last updated: <?php echo date('F Y'); ?></p>
       </div>
@@ -368,7 +368,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
           <img src="<?php echo htmlspecialchars($clientPhotos[6]); ?>" alt="Kitchen remodel detail showing custom countertop installation" width="400" height="280" loading="lazy">
         </div>
         <div class="gallery-item">
-          <img src="<?php echo htmlspecialchars($clientPhotos[4]); ?>" alt="Completed kitchen renovation project in Bend, Oregon" width="400" height="280" loading="lazy">
+          <img src="<?php echo htmlspecialchars($clientPhotos[4]); ?>" alt="Completed kitchen renovation project in Eugene, Oregon" width="400" height="280" loading="lazy">
         </div>
       </div>
     </div>
@@ -384,8 +384,8 @@ $breadcrumbSchema = generateBreadcrumbSchema([
   <div class="container">
     <div class="section-title reveal-up">
       <span class="eyebrow-label">Popular Upgrades</span>
-      <h2>What Kitchen Upgrades Are Most Popular in <span class="text-accent">Bend Homes</span>?</h2>
-      <p class="answer-block">The most requested kitchen upgrades in Bend include quartz countertops, custom soft-close cabinetry, kitchen islands with seating, open-concept wall removal, under-cabinet LED lighting, and modern tile backsplashes. Below are the upgrades Central Oregon homeowners choose most.</p>
+      <h2>What Kitchen Upgrades Are Most Popular in <span class="text-accent">Eugene Homes</span>?</h2>
+      <p class="answer-block">The most requested kitchen upgrades in Eugene include quartz countertops, custom soft-close cabinetry, kitchen islands with seating, open-concept wall removal, under-cabinet LED lighting, and modern tile backsplashes. Below are the upgrades Lane County homeowners choose most.</p>
     </div>
     <div class="upgrades-grid">
       <div class="upgrade-card card-tint-1 reveal-up reveal-delay-1">
@@ -441,7 +441,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       </div>
       <div class="numbered-step reveal-up reveal-delay-2">
         <h3>Permits &amp; Procurement</h3>
-        <p>Pull Deschutes County permits, order cabinets and countertops (4-6 week lead), coordinate material delivery dates.</p>
+        <p>Pull Lane County permits, order cabinets and countertops (4-6 week lead), coordinate material delivery dates.</p>
       </div>
       <div class="numbered-step reveal-up reveal-delay-3">
         <h3>Demo &amp; Construction</h3>
@@ -464,8 +464,8 @@ $breadcrumbSchema = generateBreadcrumbSchema([
   <div class="container">
     <div class="section-title reveal-up">
       <span class="eyebrow-label">Common Questions</span>
-      <h2>What Do Homeowners Ask About <span class="text-accent">Kitchen Remodeling</span> in Bend?</h2>
-      <p class="answer-block">Homeowners considering a kitchen remodel in Bend and Central Oregon typically ask about costs, timelines, wall removal, countertop materials, and appliance coordination. Below are the questions we hear most — with direct answers.</p>
+      <h2>What Do Homeowners Ask About <span class="text-accent">Kitchen Remodeling</span> in Eugene?</h2>
+      <p class="answer-block">Homeowners considering a kitchen remodel in Eugene and Lane County typically ask about costs, timelines, wall removal, countertop materials, and appliance coordination. Below are the questions we hear most — with direct answers.</p>
     </div>
     <div class="faq-list">
       <?php foreach ($pageFaqs as $i => $faq): ?>
@@ -485,16 +485,16 @@ $breadcrumbSchema = generateBreadcrumbSchema([
     <div class="section-title reveal-up">
       <span class="eyebrow-label">More Services</span>
       <h2>What Other <span class="text-accent">Construction Services</span> Do We Offer?</h2>
-      <p class="answer-block">Beyond kitchen remodeling, Marty Mar Construction handles bathroom renovations, whole-home remodeling, new construction, room additions, and custom deck building across Central Oregon.</p>
+      <p class="answer-block">Beyond kitchen remodeling, Marty Mar Construction handles bathroom renovations, whole-home remodeling, new construction, room additions, and custom deck building across the Eugene area.</p>
     </div>
     <div class="related-grid">
       <?php
       $relatedBullets = [
-          'new-home-construction'  => ['Custom floor plans for your lot', 'Foundation-to-finish oversight', 'Snow-load rated framing'],
+          'new-home-construction'  => ['Custom floor plans for your lot', 'Foundation-to-finish oversight', 'Moisture-resistant construction'],
           'home-additions'         => ['Seamless match to existing structure', 'Second-story expansions', 'ADU and garage conversions'],
           'remodeling-renovations' => ['Whole-home transformations', 'Structural and cosmetic work', 'On-schedule, on-budget delivery'],
           'bathroom-remodeling'    => ['Walk-in showers and soaking tubs', 'Custom tile and vanity work', 'Full gut or targeted upgrades'],
-          'deck-outdoor-structures'=> ['Composite and timber options', 'Engineered for Oregon snow loads', 'Pergolas, porches, and shade structures'],
+          'deck-outdoor-structures'=> ['Composite and timber options', 'Engineered for Oregon rain and moisture', 'Pergolas, porches, and shade structures'],
       ];
       $related = array_filter($services, fn($s) => $s['slug'] !== 'kitchen-remodeling');
       $related = array_values($related);
@@ -506,7 +506,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       ?>
       <article class="service-card-with-image card-tint-<?php echo $tint; ?> reveal-up reveal-delay-<?php echo $i + 1; ?>">
         <div class="service-card__image">
-          <img src="<?php echo htmlspecialchars($svc['image']); ?>" alt="<?php echo htmlspecialchars($svc['name']); ?> in Bend, Oregon" width="600" height="360" loading="lazy">
+          <img src="<?php echo htmlspecialchars($svc['image']); ?>" alt="<?php echo htmlspecialchars($svc['name']); ?> in Eugene, Oregon" width="600" height="360" loading="lazy">
         </div>
         <div class="service-card__body">
           <div class="service-card__icon"><i data-lucide="<?php echo htmlspecialchars($svc['icon']); ?>"></i></div>

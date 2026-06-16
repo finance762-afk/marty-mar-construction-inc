@@ -86,7 +86,7 @@
       <meta itemprop="name" content="<?php echo htmlspecialchars($siteName); ?>">
       <meta itemprop="url" content="<?php echo $siteUrl; ?>">
       <meta itemprop="telephone" content="<?php echo $phone; ?>">
-      <p><?php echo htmlspecialchars($siteName); ?> is a licensed general contractor based in <?php echo $address['city']; ?>, <?php echo $address['state']; ?>, serving homeowners across Central Oregon since <?php echo $yearEstablished; ?>. Our team specializes in new home construction, room additions, whole-home remodeling, kitchen and bathroom renovations, and custom deck and outdoor structure building. We serve <?php echo $address['city']; ?>, Redmond, Sisters, Sunriver, La Pine, Prineville, and surrounding communities within a 40-mile radius. Call <?php echo $phone; ?> for a free project estimate.</p>
+      <p><?php echo htmlspecialchars($siteName); ?> is a licensed general contractor based in <?php echo $address['city']; ?>, <?php echo $address['state']; ?>, serving homeowners across Lane County since <?php echo $yearEstablished; ?>. Our team specializes in new home construction, room additions, whole-home remodeling, kitchen and bathroom renovations, and custom deck and outdoor structure building. We serve <?php echo $address['city']; ?>, Springfield, Cottage Grove, Junction City, Veneta, Creswell, and surrounding communities within a 30-mile radius. Call <?php echo $phone; ?> for a free project estimate.</p>
     </div>
 
     <!-- Footer Legal Row (MANDATORY) -->

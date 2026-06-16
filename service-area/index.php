@@ -4,8 +4,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 ?>
 <?php
 // ── Page-Level Setup ──────────────────────────────────────────
-$pageTitle       = 'General Contractor in Bend & Central Oregon | ' . $siteName . ' Service Areas';
-$pageDescription = $siteName . ' serves Bend, Redmond, Sisters, Sunriver, La Pine, Prineville, and surrounding Central Oregon communities. Licensed general contractor providing new construction, remodeling, and additions since ' . $yearEstablished . '.';
+$pageTitle       = 'General Contractor in Eugene & Lane County, OR | ' . $siteName . ' Service Areas';
+$pageDescription = $siteName . ' serves Eugene, Springfield, Cottage Grove, Junction City, Veneta, Creswell, and surrounding Lane County communities. Licensed general contractor providing new construction, remodeling, and additions since ' . $yearEstablished . '.';
 $canonicalUrl    = $siteUrl . '/service-area/';
 $ogImage         = $clientPhotos[8];
 $currentPage     = 'service-area';
@@ -548,12 +548,12 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       <span aria-current="page">Service Area</span>
     </nav>
     <span class="eyebrow-label">Where We Work</span>
-    <h1>General Contractor in Bend & <span class="text-accent">Surrounding Communities</span></h1>
-    <p class="sa-hero-subtitle"><?php echo htmlspecialchars($siteName); ?> is a licensed general contractor based in Bend, Oregon, serving homeowners across Central Oregon with new construction, additions, remodeling, and specialty builds since <?php echo $yearEstablished; ?>.</p>
+    <h1>General Contractor in Eugene & <span class="text-accent">Lane County, Oregon</span></h1>
+    <p class="sa-hero-subtitle"><?php echo htmlspecialchars($siteName); ?> is a licensed general contractor based in Eugene, Oregon, serving homeowners across the southern Willamette Valley with new construction, additions, remodeling, and specialty builds since <?php echo $yearEstablished; ?>.</p>
 
     <div class="sa-hero-badges">
       <span class="sa-hero-badge"><i data-lucide="map-pin" aria-hidden="true"></i> 6 Communities Served</span>
-      <span class="sa-hero-badge"><i data-lucide="ruler" aria-hidden="true"></i> 40-Mile Radius</span>
+      <span class="sa-hero-badge"><i data-lucide="ruler" aria-hidden="true"></i> 30-Mile Radius</span>
       <span class="sa-hero-badge"><i data-lucide="calendar" aria-hidden="true"></i> Since <?php echo $yearEstablished; ?></span>
     </div>
   </div>
@@ -576,18 +576,18 @@ $breadcrumbSchema = generateBreadcrumbSchema([
     <div class="sa-answer-grid">
       <div class="sa-answer-content reveal-left">
         <span class="eyebrow-label">Service Areas</span>
-        <h2>What Areas Does <?php echo htmlspecialchars($siteName); ?> Serve in <span class="text-accent">Central Oregon</span>?</h2>
+        <h2>What Areas Does <?php echo htmlspecialchars($siteName); ?> Serve in <span class="text-accent">Lane County</span>?</h2>
 
         <div class="answer-block">
-          <p><?php echo htmlspecialchars($siteName); ?> serves Bend, Redmond, Sisters, Sunriver, La Pine, Prineville, and surrounding communities throughout Deschutes and Crook Counties. Most projects fall within a 40-mile radius of our Bend home base, covering the full Central Oregon high-desert corridor from the Cascades foothills east to Prineville.</p>
+          <p><?php echo htmlspecialchars($siteName); ?> serves Eugene, Springfield, Cottage Grove, Junction City, Veneta, Creswell, and surrounding communities throughout Lane County. Most projects fall within a 30-mile radius of our Eugene home base, covering the southern Willamette Valley from the Coast Range foothills east to Springfield and the McKenzie River corridor.</p>
         </div>
 
-        <p>Central Oregon's building landscape is unlike anywhere else in the Pacific Northwest. Volcanic pumice soil, 250+ days of sunshine paired with heavy winter snow loads, and freeze-thaw cycles that test every foundation. We've been building here since <?php echo $yearEstablished; ?> because we know the terrain, the county permitting processes in Deschutes and Crook Counties, and the engineering requirements that keep structures standing through high-desert winters.</p>
-        <p>Whether you're building a custom home in NorthWest Crossing, adding a second story in Redmond's Dry Canyon neighborhood, or remodeling a cabin near Sunriver, our crew works within the specific code requirements and climate demands of each community we serve.</p>
+        <p>The Willamette Valley's building landscape presents unique challenges that demand local expertise. Heavy annual rainfall, clay-rich valley soils, seismic considerations along the Cascadia Subduction Zone, and moisture management requirements that test every envelope and foundation. We've been building here since <?php echo $yearEstablished; ?> because we know the terrain, Lane County's permitting processes, and the engineering requirements that keep structures sound through wet Pacific Northwest winters.</p>
+        <p>Whether you're building a custom home in Eugene's South Hills, adding a second story in Springfield's Thurston neighborhood, or remodeling a mid-century ranch in the River Road area, our crew works within the specific code requirements and climate demands of each community we serve.</p>
       </div>
 
       <div class="sa-answer-image reveal-right">
-        <img src="<?php echo htmlspecialchars($clientPhotos[8]); ?>" alt="Marty Mar Construction home project in Central Oregon" width="600" height="450" loading="lazy">
+        <img src="<?php echo htmlspecialchars($clientPhotos[8]); ?>" alt="Marty Mar Construction home project in Eugene, Oregon" width="600" height="450" loading="lazy">
       </div>
     </div>
   </div>
@@ -608,58 +608,58 @@ $breadcrumbSchema = generateBreadcrumbSchema([
     <div class="section-title reveal-up">
       <span class="eyebrow-label">Our Coverage</span>
       <h2>Communities We <span class="text-accent">Build In</span></h2>
-      <span class="section-subtitle">Across Deschutes &amp; Crook Counties</span>
+      <span class="section-subtitle">Across Lane County &amp; the Willamette Valley</span>
     </div>
 
     <div class="sa-areas-grid">
 
-      <!-- Bend (Primary) -->
+      <!-- Eugene (Primary) -->
       <div class="sa-area-card sa-area-card--primary card-tint-1 reveal-up reveal-delay-1">
         <span class="area-primary-tag"><i data-lucide="star" aria-hidden="true"></i> Home Base</span>
         <div class="sa-area-card-icon"><i data-lucide="building-2" aria-hidden="true"></i></div>
-        <h3>Bend, OR</h3>
-        <span class="area-zip">97701 / 97702 / 97703</span>
-        <p>Our home base and where the majority of our projects happen. From custom builds in NorthWest Crossing and Broken Top to kitchen remodels in the Old Mill District and bathroom upgrades in southeast Bend, we know every neighborhood, HOA requirement, and City of Bend permit process.</p>
+        <h3>Eugene, OR</h3>
+        <span class="area-zip">97401 / 97402 / 97403 / 97404 / 97405</span>
+        <p>Our home base and where the majority of our projects happen. From custom builds in the South Hills and Cal Young to kitchen remodels in the Friendly neighborhood and whole-home renovations in Whiteaker and River Road, we know every neighborhood, HOA requirement, and City of Eugene permit process.</p>
       </div>
 
-      <!-- Redmond -->
+      <!-- Springfield -->
       <div class="sa-area-card card-tint-2 reveal-up reveal-delay-2">
         <div class="sa-area-card-icon"><i data-lucide="home" aria-hidden="true"></i></div>
-        <h3>Redmond, OR</h3>
-        <span class="area-zip">97756</span>
-        <p>Just 16 miles north of Bend, Redmond is one of Central Oregon's fastest-growing cities. We handle new home construction near Eagle Crest, additions in Dry Canyon Ridge, and full remodels throughout Redmond's established neighborhoods and newer developments alike.</p>
+        <h3>Springfield, OR</h3>
+        <span class="area-zip">97477 / 97478</span>
+        <p>Directly east of Eugene across the Willamette River, Springfield is Lane County's second-largest city. We handle new home construction in the Gateway area, additions in Thurston, and full remodels throughout Springfield's established neighborhoods near the McKenzie River corridor.</p>
       </div>
 
-      <!-- Sisters -->
+      <!-- Cottage Grove -->
       <div class="sa-area-card card-tint-3 reveal-up reveal-delay-3">
-        <div class="sa-area-card-icon"><i data-lucide="mountain" aria-hidden="true"></i></div>
-        <h3>Sisters, OR</h3>
-        <span class="area-zip">97759</span>
-        <p>Sisters sits at the base of the Cascades with strict architectural standards that preserve its Western-frontier character. We build custom homes, ADUs, and additions that meet Sisters' design review requirements while handling the area's heavier snow loads and higher elevation conditions.</p>
-      </div>
-
-      <!-- Sunriver -->
-      <div class="sa-area-card card-tint-1 reveal-up reveal-delay-1">
         <div class="sa-area-card-icon"><i data-lucide="trees" aria-hidden="true"></i></div>
-        <h3>Sunriver, OR</h3>
-        <span class="area-zip">97707</span>
-        <p>Sunriver's resort-community HOA has specific construction guidelines, setback requirements, and architectural review processes. We've navigated Sunriver Owners Association approvals on dozens of deck builds, cabin remodels, and room additions throughout the community.</p>
+        <h3>Cottage Grove, OR</h3>
+        <span class="area-zip">97424</span>
+        <p>About 20 miles south of Eugene along I-5, Cottage Grove is known for its covered bridges and historic downtown. We build custom homes, ADUs, and additions that respect the town's character while meeting modern energy codes. The area's mix of older Craftsman homes and newer developments keeps our crews busy year-round.</p>
       </div>
 
-      <!-- La Pine -->
-      <div class="sa-area-card card-tint-2 reveal-up reveal-delay-2">
-        <div class="sa-area-card-icon"><i data-lucide="tree-pine" aria-hidden="true"></i></div>
-        <h3>La Pine, OR</h3>
-        <span class="area-zip">97739</span>
-        <p>South of Sunriver along Highway 97, La Pine offers larger lots and rural acreage that attract homeowners looking for space. We build new custom homes on 1–5 acre parcels, handle well-and-septic construction coordination, and manage Deschutes County rural permitting from start to finish.</p>
-      </div>
-
-      <!-- Prineville -->
-      <div class="sa-area-card card-tint-3 reveal-up reveal-delay-3">
+      <!-- Junction City -->
+      <div class="sa-area-card card-tint-1 reveal-up reveal-delay-1">
         <div class="sa-area-card-icon"><i data-lucide="landmark" aria-hidden="true"></i></div>
-        <h3>Prineville, OR</h3>
-        <span class="area-zip">97754</span>
-        <p>Prineville is Central Oregon's original county seat, and its mix of historic homes and new subdivisions near the Crooked River creates demand for both renovation expertise and new construction. We work within Crook County's permitting system and build to the area's specific seismic and climate requirements.</p>
+        <h3>Junction City, OR</h3>
+        <span class="area-zip">97448</span>
+        <p>North of Eugene along Highway 99, Junction City offers a small-town feel with easy access to the Eugene metro area. We handle new construction on the larger rural parcels surrounding town, farmhouse remodels, and residential additions for families drawn to Junction City's Scandinavian heritage community and quieter pace of life.</p>
+      </div>
+
+      <!-- Veneta -->
+      <div class="sa-area-card card-tint-2 reveal-up reveal-delay-2">
+        <div class="sa-area-card-icon"><i data-lucide="mountain" aria-hidden="true"></i></div>
+        <h3>Veneta, OR</h3>
+        <span class="area-zip">97487</span>
+        <p>West of Eugene near the Fern Ridge Reservoir, Veneta attracts homeowners looking for more space at lower price points. We build new custom homes on acreage lots, manage Lane County rural permitting, and handle remodels in Veneta's growing residential areas near the Coast Range foothills.</p>
+      </div>
+
+      <!-- Creswell -->
+      <div class="sa-area-card card-tint-3 reveal-up reveal-delay-3">
+        <div class="sa-area-card-icon"><i data-lucide="tree-pine" aria-hidden="true"></i></div>
+        <h3>Creswell, OR</h3>
+        <span class="area-zip">97426</span>
+        <p>Situated along I-5 between Eugene and Cottage Grove, Creswell is one of the fastest-growing small cities in Lane County. We build in both the newer subdivisions east of the freeway and the established neighborhoods near downtown, handling everything from ground-up construction to kitchen and bathroom remodels.</p>
       </div>
 
     </div>
@@ -682,18 +682,18 @@ $breadcrumbSchema = generateBreadcrumbSchema([
   <div class="container">
     <div class="sa-map-grid">
       <div class="sa-map-frame reveal-left">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d364000!2d-121.55!3d44.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54b8c0ffa5d3d251%3A0x1088e7acc720d1b4!2sBend%2C%20OR!5e0!3m2!1sen!2sus!4v1" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Marty Mar Construction service area map — Central Oregon"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d180000!2d-123.0868!3d44.0521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54c119b0ac501919%3A0x57ec61894a43894d!2sEugene%2C%20OR!5e0!3m2!1sen!2sus!4v1" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Marty Mar Construction service area map — Eugene and Lane County, Oregon"></iframe>
       </div>
 
       <div class="sa-map-content reveal-right">
         <span class="eyebrow-label">Coverage Radius</span>
-        <h2>Built for <span class="text-accent">Central Oregon's</span> Climate</h2>
-        <p>Every structure we build is engineered for the high desert — volcanic pumice soil foundations, snow-load-rated framing, UV-resistant exterior finishes, and freeze-cycle-proof concrete work. We don't import plans from the valley. We build for this specific environment.</p>
-        <p>Our 40-mile service radius from Bend covers all of Deschutes County and the western half of Crook County. If you're within driving distance of Bend, we can take your project.</p>
+        <h2>Built for the <span class="text-accent">Willamette Valley's</span> Climate</h2>
+        <p>Every structure we build is engineered for western Oregon's wet climate — moisture-managed wall assemblies, rain-screen siding details, proper drainage and foundation waterproofing on clay-rich valley soils, and energy-efficient envelopes designed for 45+ inches of annual rainfall. We build for this specific environment.</p>
+        <p>Our 30-mile service radius from Eugene covers all of Lane County's population centers. If you're within driving distance of Eugene, we can take your project.</p>
 
         <div class="sa-radius-stat">
-          <div class="sa-radius-number" data-target="40" data-suffix="+">40+<span>mile radius</span></div>
-          <div class="sa-radius-text">From Bend to Sisters, Sunriver to Prineville — we cover the full Central Oregon building corridor. Projects outside our standard radius considered on a case-by-case basis for larger builds.</div>
+          <div class="sa-radius-number" data-target="30" data-suffix="+">30+<span>mile radius</span></div>
+          <div class="sa-radius-text">From Eugene to Springfield, Cottage Grove to Junction City — we cover the full southern Willamette Valley building corridor. Projects outside our standard radius considered on a case-by-case basis for larger builds.</div>
         </div>
       </div>
     </div>
@@ -746,8 +746,8 @@ $breadcrumbSchema = generateBreadcrumbSchema([
 <section class="sa-cta">
   <div class="container reveal-up">
     <span class="eyebrow-label" style="color: var(--color-accent);">Start Your Project</span>
-    <h2>Building in Central Oregon? Let's Talk.</h2>
-    <p>Whether you're in Bend, Redmond, Sisters, or anywhere within our 40-mile radius, <?php echo htmlspecialchars($siteName); ?> delivers the same hands-on project management, transparent pricing, and climate-smart construction on every build. Call <?php echo $phone; ?> or request your free estimate.</p>
+    <h2>Building in the Eugene Area? Let's Talk.</h2>
+    <p>Whether you're in Eugene, Springfield, Cottage Grove, or anywhere within our 30-mile radius, <?php echo htmlspecialchars($siteName); ?> delivers the same hands-on project management, transparent pricing, and climate-smart construction on every build. Call <?php echo $phone; ?> or request your free estimate.</p>
     <div style="display: flex; flex-wrap: wrap; gap: var(--space-md); justify-content: center;">
       <a href="/contact/" class="btn-primary">
         <i data-lucide="file-text" aria-hidden="true"></i> Request Free Estimate

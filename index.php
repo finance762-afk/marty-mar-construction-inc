@@ -4,8 +4,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 ?>
 <?php
 // ── Page-Level Setup ──────────────────────────────────────────
-$pageTitle       = 'General Contractor in Bend, OR | ' . $siteName . ' | Since ' . $yearEstablished;
-$pageDescription = $siteName . ' is a licensed general contractor serving Bend, Redmond, Sisters, and Central Oregon since ' . $yearEstablished . '. New home construction, additions, remodeling, kitchens, bathrooms, and decks. Call ' . $phone . ' for a free estimate.';
+$pageTitle       = 'General Contractor in Eugene, OR | ' . $siteName . ' | Since ' . $yearEstablished;
+$pageDescription = $siteName . ' is a licensed general contractor serving Eugene, Springfield, Cottage Grove, and Lane County since ' . $yearEstablished . '. New home construction, additions, remodeling, kitchens, bathrooms, and decks. Call ' . $phone . ' for a free estimate.';
 $canonicalUrl    = $siteUrl . '/';
 $ogImage         = $services[0]['image'];
 $currentPage     = 'home';
@@ -16,24 +16,24 @@ $useSwiper       = true;
 // ── Homepage FAQs ─────────────────────────────────────────────
 $homeFaqs = [
     [
-        'q' => 'What areas does Marty Mar Construction serve in Central Oregon?',
-        'a' => 'We serve Bend, Redmond, Sisters, Sunriver, La Pine, Prineville, and surrounding communities throughout Central Oregon. Most of our projects are within a 40-mile radius of Bend, covering Deschutes and Crook counties.',
+        'q' => 'What areas does Marty Mar Construction serve in the Eugene area?',
+        'a' => 'We serve Eugene, Springfield, Cottage Grove, Junction City, Veneta, Creswell, and surrounding communities throughout Lane County. Most of our projects are within a 30-mile radius of Eugene, covering the Willamette Valley.',
     ],
     [
         'q' => 'Is Marty Mar Construction licensed and insured in Oregon?',
         'a' => 'Yes. Marty Mar Construction Inc is a fully licensed general contractor in the state of Oregon, carrying general liability insurance and workers\' compensation coverage. License documentation is available upon request.',
     ],
     [
-        'q' => 'How do I get a free construction estimate in Bend?',
+        'q' => 'How do I get a free construction estimate in Eugene?',
         'a' => 'Call us at (541) 554-8181 or fill out the estimate form on this page. We\'ll schedule a site visit within 48 hours, assess the scope of your project, and deliver a detailed written estimate — no cost, no obligation.',
     ],
     [
-        'q' => 'How long does a typical home remodel take in Central Oregon?',
-        'a' => 'Timelines depend on scope. A bathroom remodel typically runs 2–4 weeks, a kitchen remodel 4–8 weeks, and new home construction averages 6–12 months. Weather in Bend can shift exterior schedules, but we build that into every timeline.',
+        'q' => 'How long does a typical home remodel take in the Eugene area?',
+        'a' => 'Timelines depend on scope. A bathroom remodel typically runs 2–4 weeks, a kitchen remodel 4–8 weeks, and new home construction averages 6–12 months. Rainy weather in Eugene can shift exterior schedules, but we build that into every timeline.',
     ],
     [
         'q' => 'Does Marty Mar Construction handle building permits?',
-        'a' => 'Yes. We pull all required building permits through Deschutes County, the City of Bend, or the applicable jurisdiction. We coordinate every inspection from foundation to final sign-off so you don\'t have to.',
+        'a' => 'Yes. We pull all required building permits through Lane County, the City of Eugene, or the applicable jurisdiction. We coordinate every inspection from foundation to final sign-off so you don\'t have to.',
     ],
     [
         'q' => 'What types of construction projects do you handle?',
@@ -669,10 +669,10 @@ $faqSchema = generateFAQSchema($homeFaqs);
     <div class="hero-text">
       <span class="hero-eyebrow">
         <i data-lucide="shield-check" aria-hidden="true"></i>
-        Serving Bend &amp; Central Oregon Since <?php echo $yearEstablished; ?>
+        Serving Eugene &amp; Lane County Since <?php echo $yearEstablished; ?>
       </span>
       <h1 class="hero-title">Build It Right the <span class="text-accent">First Time</span></h1>
-      <p class="hero-subtitle">Marty Mar Construction is a licensed general contractor in Bend, Oregon, handling everything from ground-up custom homes to kitchen remodels and outdoor living spaces — with direct communication and transparent pricing on every project.</p>
+      <p class="hero-subtitle">Marty Mar Construction is a licensed general contractor in Eugene, Oregon, handling everything from ground-up custom homes to kitchen remodels and outdoor living spaces — with direct communication and transparent pricing on every project.</p>
       <div class="hero-actions">
         <a href="#estimate-form" class="btn-primary">
           <i data-lucide="file-text" aria-hidden="true"></i> Get a Free Estimate
@@ -685,7 +685,7 @@ $faqSchema = generateFAQSchema($homeFaqs);
         <span class="hero-trust-item"><i data-lucide="shield-check" aria-hidden="true"></i> Licensed &amp; Insured</span>
         <span class="hero-trust-item"><i data-lucide="calendar" aria-hidden="true"></i> <?php echo $yearsInBusiness; ?>+ Years</span>
         <span class="hero-trust-item"><i data-lucide="star" aria-hidden="true"></i> 4.9 Google Rating</span>
-        <span class="hero-trust-item"><i data-lucide="map-pin" aria-hidden="true"></i> Bend, OR Based</span>
+        <span class="hero-trust-item"><i data-lucide="map-pin" aria-hidden="true"></i> Eugene, OR Based</span>
       </div>
     </div>
 
@@ -751,7 +751,7 @@ $faqSchema = generateFAQSchema($homeFaqs);
         ['icon' => 'layout-grid',   'text' => 'Decks & Outdoor Structures'],
         ['icon' => 'star',          'text' => '4.9 ★ Google Rating'],
         ['icon' => 'shield-check',  'text' => 'Licensed & Insured'],
-        ['icon' => 'map-pin',       'text' => 'Serving All of Central Oregon'],
+        ['icon' => 'map-pin',       'text' => 'Serving All of Lane County'],
     ];
     // Duplicate for seamless loop
     for ($loop = 0; $loop < 2; $loop++):
@@ -785,8 +785,8 @@ $faqSchema = generateFAQSchema($homeFaqs);
   <div class="container">
     <div class="section-title reveal-up">
       <span class="eyebrow-label">What We Do</span>
-      <h2>What <span class="text-accent">Construction Services</span> Does Marty Mar Offer in Bend?</h2>
-      <p class="hero-answer">Marty Mar Construction Inc is a full-service general contractor based in Bend, Oregon, delivering new home builds, room additions, whole-home remodeling, kitchen and bathroom renovations, and custom deck construction across Central Oregon since <?php echo $yearEstablished; ?>.</p>
+      <h2>What <span class="text-accent">Construction Services</span> Does Marty Mar Offer in Eugene?</h2>
+      <p class="hero-answer">Marty Mar Construction Inc is a full-service general contractor based in Eugene, Oregon, delivering new home builds, room additions, whole-home remodeling, kitchen and bathroom renovations, and custom deck construction across Lane County since <?php echo $yearEstablished; ?>.</p>
       <span class="section-subtitle">Hands-on craftsmanship, every phase</span>
     </div>
 
@@ -794,12 +794,12 @@ $faqSchema = generateFAQSchema($homeFaqs);
       <?php
       $tintCycle = [1, 2, 3];
       $serviceBullets = [
-          'new-home-construction' => ['Custom floor plans for your lot', 'Foundation-to-finish oversight', 'Snow-load rated framing'],
+          'new-home-construction' => ['Custom floor plans for your lot', 'Foundation-to-finish oversight', 'Rain-ready weatherproofing'],
           'home-additions'       => ['Seamless match to existing structure', 'Second-story expansions', 'ADU and garage conversions'],
           'remodeling-renovations'=> ['Whole-home transformations', 'Structural and cosmetic work', 'On-schedule, on-budget delivery'],
           'bathroom-remodeling'   => ['Walk-in showers and soaking tubs', 'Custom tile and vanity work', 'Full gut or targeted upgrades'],
           'kitchen-remodeling'    => ['Custom cabinetry and countertops', 'Layout and structural changes', 'Lighting and appliance planning'],
-          'deck-outdoor-structures'=> ['Composite and timber options', 'Engineered for Oregon snow loads', 'Pergolas, porches, and shade structures'],
+          'deck-outdoor-structures'=> ['Composite and timber options', 'Engineered for Oregon rain and moisture', 'Pergolas, porches, and shade structures'],
       ];
       foreach ($services as $i => $svc):
         $tint = $tintCycle[$i % 3];
@@ -808,7 +808,7 @@ $faqSchema = generateFAQSchema($homeFaqs);
       ?>
       <article class="service-card-with-image card-tint-<?php echo $tint; ?> reveal-up reveal-delay-<?php echo $delay; ?>">
         <div class="service-card__image">
-          <img src="<?php echo htmlspecialchars($svc['image']); ?>" alt="<?php echo htmlspecialchars($svc['name']); ?> in Bend, Oregon" width="600" height="360" loading="lazy">
+          <img src="<?php echo htmlspecialchars($svc['image']); ?>" alt="<?php echo htmlspecialchars($svc['name']); ?> in Eugene, Oregon" width="600" height="360" loading="lazy">
         </div>
         <div class="service-card__body">
           <div class="service-card__icon"><i data-lucide="<?php echo htmlspecialchars($svc['icon']); ?>"></i></div>
@@ -867,8 +867,8 @@ $faqSchema = generateFAQSchema($homeFaqs);
       </div>
       <div class="stat-item reveal-up reveal-delay-4">
         <div class="stat-block">
-          <span class="stat-watermark" aria-hidden="true">40</span>
-          <span class="stat-number" data-target="40" data-suffix=" mi">0</span>
+          <span class="stat-watermark" aria-hidden="true">30</span>
+          <span class="stat-number" data-target="30" data-suffix=" mi">0</span>
           <span class="stat-label">Service Radius</span>
         </div>
       </div>
@@ -890,7 +890,7 @@ $faqSchema = generateFAQSchema($homeFaqs);
   <div class="container reveal-up">
     <span class="eyebrow-label" style="color: var(--color-accent);">Ready to Start?</span>
     <h2>Your Project Won't Build Itself</h2>
-    <p>Central Oregon's building season fills fast. Lock in your contractor now so your remodel, addition, or new build starts on schedule — not next year's schedule.</p>
+    <p>The Eugene area's building season fills fast. Lock in your contractor now so your remodel, addition, or new build starts on schedule — not next year's schedule.</p>
     <a href="/contact/" class="btn-primary">
       <i data-lucide="arrow-right" aria-hidden="true"></i> Schedule Your Free Consultation
     </a>
@@ -907,7 +907,7 @@ $faqSchema = generateFAQSchema($homeFaqs);
   <div class="container">
     <div class="section-title reveal-up">
       <span class="eyebrow-label">How We Work</span>
-      <h2>Why Homeowners in <span class="text-accent">Bend</span> Choose Marty Mar</h2>
+      <h2>Why Homeowners in <span class="text-accent">Eugene</span> Choose Marty Mar</h2>
       <span class="section-subtitle">Straight talk, solid builds</span>
     </div>
 
@@ -915,8 +915,8 @@ $faqSchema = generateFAQSchema($homeFaqs);
       <!-- Left: Story + Process -->
       <div class="about-content reveal-left">
         <div class="about-story">
-          <h3>Built for Central Oregon</h3>
-          <p>Marty Mar Construction has been building and remodeling homes across Deschutes County since 2007. From custom homes in NorthWest Crossing to kitchen overhauls in the Old Mill District, we know this market — the soil conditions, the snow loads, the permit timelines, and the subcontractor networks that actually show up on Monday.</p>
+          <h3>Built for the Willamette Valley</h3>
+          <p>Marty Mar Construction has been building and remodeling homes across Lane County since 2007. From custom homes in South Hills to kitchen overhauls in the Friendly neighborhood, we know this market — the clay soils, the rain management, the permit timelines, and the subcontractor networks that actually show up on Monday.</p>
           <p>Unlike brokers who hand your project off to whoever's cheapest, Marty is on-site and directly managing your build. You get one point of contact, transparent pricing, and a schedule you can hold us to. We've earned our reputation one referral at a time — not through paid ads.</p>
         </div>
 
@@ -955,11 +955,11 @@ $faqSchema = generateFAQSchema($homeFaqs);
       <!-- Right: Image + Stat Overlay -->
       <div class="about-image-wrap reveal-right">
         <div class="img-reveal">
-          <img src="<?php echo htmlspecialchars($clientPhotos[3]); ?>" alt="Marty Mar Construction crew working on a home project in Bend, Oregon" width="600" height="450" loading="lazy">
+          <img src="<?php echo htmlspecialchars($clientPhotos[3]); ?>" alt="Marty Mar Construction crew working on a home project in Eugene, Oregon" width="600" height="450" loading="lazy">
         </div>
         <div class="about-stat-overlay">
           <span class="stat-number" data-target="<?php echo $yearsInBusiness; ?>" data-suffix="+">0</span>
-          <span class="stat-label">Years in Bend</span>
+          <span class="stat-label">Years in Eugene</span>
         </div>
       </div>
     </div>
@@ -982,7 +982,7 @@ $faqSchema = generateFAQSchema($homeFaqs);
   <div class="container">
     <div class="section-title reveal-up">
       <span class="eyebrow-label">What Clients Say</span>
-      <h2>Real Reviews from <span class="text-accent">Central Oregon</span> Homeowners</h2>
+      <h2>Real Reviews from <span class="text-accent">Eugene Area</span> Homeowners</h2>
       <span class="section-subtitle">Honest feedback, no filters</span>
     </div>
 
@@ -992,18 +992,18 @@ $faqSchema = generateFAQSchema($homeFaqs);
         <div class="swiper-slide">
           <div class="review-card">
             <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
-            <p class="review-quote">"Marty and his team did an incredible job on our bathroom remodel. Professional from start to finish, great communication, and the quality of work exceeded our expectations. Highly recommend for anyone in Bend looking for a reliable contractor."</p>
+            <p class="review-quote">"Marty and his team did an incredible job on our bathroom remodel. Professional from start to finish, great communication, and the quality of work exceeded our expectations. Highly recommend for anyone in Eugene looking for a reliable contractor."</p>
             <span class="review-author">Sarah M.</span>
-            <span class="review-meta">Bend, OR — Bathroom Remodel</span>
+            <span class="review-meta">Eugene, OR — Bathroom Remodel</span>
           </div>
         </div>
 
         <div class="swiper-slide">
           <div class="review-card">
             <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
-            <p class="review-quote">"We hired Marty Mar Construction for a room addition and couldn't be happier. They matched the existing roofline perfectly and stayed on schedule despite a late snow. The crew was respectful and kept our property clean every day."</p>
+            <p class="review-quote">"We hired Marty Mar Construction for a room addition and couldn't be happier. They matched the existing roofline perfectly and stayed on schedule despite weeks of rain. The crew was respectful and kept our property clean every day."</p>
             <span class="review-author">James &amp; Linda T.</span>
-            <span class="review-meta">Redmond, OR — Home Addition</span>
+            <span class="review-meta">Springfield, OR — Home Addition</span>
           </div>
         </div>
 
@@ -1012,25 +1012,25 @@ $faqSchema = generateFAQSchema($homeFaqs);
             <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
             <p class="review-quote">"From the initial estimate to the final walkthrough, Marty was honest, on-time, and delivered exactly what he promised. Our kitchen remodel came in on budget and looks amazing. We'll call him again for the deck next spring."</p>
             <span class="review-author">David R.</span>
-            <span class="review-meta">Bend, OR — Kitchen Remodel</span>
+            <span class="review-meta">Eugene, OR — Kitchen Remodel</span>
           </div>
         </div>
 
         <div class="swiper-slide">
           <div class="review-card">
             <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
-            <p class="review-quote">"Built our custom home from the ground up. Marty managed every sub, handled all permits, and communicated with us weekly. No surprise costs, no delays. If you're building in Central Oregon, this is your contractor."</p>
+            <p class="review-quote">"Built our custom home from the ground up. Marty managed every sub, handled all permits, and communicated with us weekly. No surprise costs, no delays. If you're building in the Eugene area, this is your contractor."</p>
             <span class="review-author">Mike &amp; Karen P.</span>
-            <span class="review-meta">Sisters, OR — New Home Construction</span>
+            <span class="review-meta">Junction City, OR — New Home Construction</span>
           </div>
         </div>
 
         <div class="swiper-slide">
           <div class="review-card">
             <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
-            <p class="review-quote">"We needed a deck that could handle Sunriver winters — Marty's team built a composite deck with a covered section that's already survived two heavy snowfalls with zero issues. Solid work, fair price."</p>
+            <p class="review-quote">"We needed a deck that could handle Oregon rain year-round — Marty's team built a composite deck with a covered section that's already survived two wet winters with zero issues. Solid work, fair price."</p>
             <span class="review-author">Chris L.</span>
-            <span class="review-meta">Sunriver, OR — Deck Construction</span>
+            <span class="review-meta">Cottage Grove, OR — Deck Construction</span>
           </div>
         </div>
 

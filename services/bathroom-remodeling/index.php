@@ -9,8 +9,8 @@ foreach ($services as $svc) {
     if ($svc['slug'] === 'bathroom-remodeling') { $currentService = $svc; break; }
 }
 
-$pageTitle       = 'Bathroom Remodeling Bend OR | Bathroom Renovation | ' . $siteName;
-$pageDescription = 'Marty Mar Construction remodels bathrooms in Bend, Redmond, Sisters, and Central Oregon. Custom tile, walk-in showers, soaking tubs, and floating vanities. Licensed since ' . $yearEstablished . '. Call ' . $phone . '.';
+$pageTitle       = 'Bathroom Remodeling Eugene OR | Bathroom Renovation | ' . $siteName;
+$pageDescription = 'Marty Mar Construction remodels bathrooms in Eugene, Springfield, Cottage Grove, and Lane County, Oregon. Custom tile, walk-in showers, soaking tubs, and floating vanities. Licensed since ' . $yearEstablished . '. Call ' . $phone . '.';
 $canonicalUrl    = $siteUrl . '/services/bathroom-remodeling/';
 $ogImage         = $currentService['image'];
 $currentPage     = 'services';
@@ -19,11 +19,11 @@ $cssVersion      = '4.1';
 
 // ── Page FAQs ─────────────────────────────────────────────────
 $pageFaqs = [
-    ['q' => 'How much does a bathroom remodel cost in Bend, Oregon?', 'a' => 'Bathroom remodel costs in Bend range from $12,000-$25,000 for a cosmetic update (fixtures, paint, vanity) to $25,000-$60,000 for a full gut renovation with custom tile, new plumbing, and layout changes. Master bath remodels with high-end finishes can exceed $75,000.'],
-    ['q' => 'How long does a bathroom remodel take in Central Oregon?', 'a' => 'Most bathroom remodels in Bend take 2-4 weeks for a standard renovation and 4-6 weeks for a full gut-and-rebuild with structural changes. Material lead times (custom tile, specialty fixtures) can add 2-3 weeks — we order materials before demo starts to minimize delays.'],
+    ['q' => 'How much does a bathroom remodel cost in Eugene, Oregon?', 'a' => 'Bathroom remodel costs in Eugene range from $12,000-$25,000 for a cosmetic update (fixtures, paint, vanity) to $25,000-$60,000 for a full gut renovation with custom tile, new plumbing, and layout changes. Master bath remodels with high-end finishes can exceed $75,000.'],
+    ['q' => 'How long does a bathroom remodel take in the Eugene area?', 'a' => 'Most bathroom remodels in Eugene take 2-4 weeks for a standard renovation and 4-6 weeks for a full gut-and-rebuild with structural changes. Material lead times (custom tile, specialty fixtures) can add 2-3 weeks — we order materials before demo starts to minimize delays.'],
     ['q' => 'Can you convert a bathtub to a walk-in shower?', 'a' => 'Yes — tub-to-shower conversions are one of our most requested projects. We handle the plumbing relocation, waterproofing, custom tile work, glass enclosure installation, and drain reconfiguration. Most conversions take 2-3 weeks from demo to completion.'],
     ['q' => 'Do you handle bathroom plumbing and electrical?', 'a' => 'Yes. We coordinate all plumbing and electrical work through licensed subcontractors under our general contractor license. Fixture relocations, new circuits for heated floors, exhaust fan upgrades, and supply line rerouting are all part of what we manage.'],
-    ['q' => 'What waterproofing methods do you use in shower remodels?', 'a' => 'We use Kerdi membrane or RedGard liquid waterproofing on all shower walls and floors, with pre-formed curb systems and sealed niches. Proper waterproofing is critical in Bend\'s dry climate — humidity differences between heated bathrooms and cold exterior walls cause condensation that destroys inadequately sealed assemblies.'],
+    ['q' => 'What waterproofing methods do you use in shower remodels?', 'a' => 'We use Kerdi membrane or RedGard liquid waterproofing on all shower walls and floors, with pre-formed curb systems and sealed niches. Proper waterproofing is critical in Eugene\'s wet climate — persistent moisture and humidity differences between heated bathrooms and damp exterior walls cause mold and rot in inadequately sealed assemblies.'],
 ];
 
 // ── Schema Markup ─────────────────────────────────────────────
@@ -314,8 +314,8 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       <a href="/services/">Services</a><span class="breadcrumb-sep" aria-hidden="true">/</span>
       <span aria-current="page">Bathroom Remodeling</span>
     </nav>
-    <h1>Bathroom Remodeling in <span class="text-accent">Bend, Oregon</span></h1>
-    <p class="hero-answer"><?php echo htmlspecialchars($siteName); ?> transforms bathrooms across Bend, Redmond, Sisters, and Central Oregon with custom tile work, walk-in showers, soaking tubs, floating vanities, and updated plumbing. We handle full gut-and-rebuild renovations or targeted upgrades — master baths, guest baths, and powder rooms.</p>
+    <h1>Bathroom Remodeling in <span class="text-accent">Eugene, Oregon</span></h1>
+    <p class="hero-answer"><?php echo htmlspecialchars($siteName); ?> transforms bathrooms across Eugene, Springfield, Cottage Grove, and Lane County with custom tile work, walk-in showers, soaking tubs, floating vanities, and updated plumbing. We handle full gut-and-rebuild renovations or targeted upgrades — master baths, guest baths, and powder rooms.</p>
     <div class="hero-ctas">
       <a href="/contact/" class="btn-primary"><i data-lucide="file-text" aria-hidden="true"></i> Get a Free Estimate</a>
       <a href="tel:<?php echo $phonePlain; ?>" class="btn-secondary btn-secondary--light"><i data-lucide="phone" aria-hidden="true"></i> Call <?php echo $phone; ?></a>
@@ -323,7 +323,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
     <div class="hero-trust">
       <span><i data-lucide="shield-check" aria-hidden="true"></i> Licensed &amp; Insured</span>
       <span><i data-lucide="calendar" aria-hidden="true"></i> Since <?php echo $yearEstablished; ?></span>
-      <span><i data-lucide="map-pin" aria-hidden="true"></i> Central Oregon</span>
+      <span><i data-lucide="map-pin" aria-hidden="true"></i> Eugene &amp; Lane County</span>
     </div>
   </div>
   <div class="section-divider section-divider--bottom">
@@ -338,16 +338,16 @@ $breadcrumbSchema = generateBreadcrumbSchema([
   <div class="container">
     <div class="split-layout">
       <div class="detail-image reveal-left">
-        <img src="<?php echo htmlspecialchars($clientPhotos[21]); ?>" alt="Bathroom remodeling project by Marty Mar Construction in Bend, Oregon showing custom tile and fixtures" width="500" height="600" loading="lazy">
+        <img src="<?php echo htmlspecialchars($clientPhotos[21]); ?>" alt="Bathroom remodeling project by Marty Mar Construction in Eugene, Oregon showing custom tile and fixtures" width="500" height="600" loading="lazy">
       </div>
       <div class="detail-text reveal-up">
         <span class="eyebrow-label">Bathroom Renovation</span>
         <h2>What's Included in a <span class="text-accent">Bathroom Remodel</span> With Marty Mar?</h2>
         <p class="answer-block">A bathroom remodel with Marty Mar Construction includes demolition, plumbing and electrical updates, waterproofing, custom tile installation, fixture mounting, vanity and countertop installation, lighting, ventilation, and final finishes. We manage every trade and inspection from start to certificate of completion.</p>
 
-        <p class="identity-sentence"><?php echo htmlspecialchars($siteName); ?> is a licensed Oregon general contractor based in Bend, remodeling bathrooms across Central Oregon since <?php echo $yearEstablished; ?>.</p>
+        <p class="identity-sentence"><?php echo htmlspecialchars($siteName); ?> is a licensed Oregon general contractor based in Eugene, remodeling bathrooms across Lane County since <?php echo $yearEstablished; ?>.</p>
 
-        <p>Bathroom remodeling in Central Oregon demands proper waterproofing and moisture management. The humidity differential between a heated shower enclosure and Bend's dry, cold exterior air creates condensation pressure that destroys poorly sealed wall assemblies. Every shower we build gets a full Kerdi membrane or RedGard system — no shortcuts, no skipped niches, no exposed backer board seams.</p>
+        <p>Bathroom remodeling in the Willamette Valley demands proper waterproofing and moisture management. Eugene's persistent rain and ambient humidity create constant moisture pressure on exterior walls, and poorly sealed bathroom assemblies develop mold and rot faster here than in drier climates. Every shower we build gets a full Kerdi membrane or RedGard system — no shortcuts, no skipped niches, no exposed backer board seams.</p>
 
         <p>We handle everything from a straightforward tub-to-shower conversion in a guest bath to a complete master suite gut renovation with heated floors, double vanities, and a freestanding soaking tub. Our tile crew handles large-format porcelain, natural stone, mosaic accent walls, and linear drain installations — materials that require precision setting to look right and last.</p>
 
@@ -366,19 +366,19 @@ $breadcrumbSchema = generateBreadcrumbSchema([
   <div class="container">
     <div class="section-title reveal-up">
       <span class="eyebrow-label">What We Build</span>
-      <h2>What Bathroom Features Are Most Popular in <span class="text-accent">Bend Homes</span>?</h2>
-      <p class="answer-block">The most requested bathroom features in Bend include walk-in showers with frameless glass, heated tile floors, floating vanities with quartz countertops, freestanding soaking tubs, and linear drain systems. Below are the upgrades homeowners across Central Oregon choose most.</p>
+      <h2>What Bathroom Features Are Most Popular in <span class="text-accent">Eugene Homes</span>?</h2>
+      <p class="answer-block">The most requested bathroom features in Eugene include walk-in showers with frameless glass, heated tile floors, floating vanities with quartz countertops, freestanding soaking tubs, and linear drain systems. Below are the upgrades homeowners across Lane County choose most.</p>
     </div>
     <div class="bento-grid">
       <div class="bento-card bento-card--wide card-tint-1 reveal-up reveal-delay-1">
         <div class="bento-card__icon"><i data-lucide="droplets" aria-hidden="true"></i></div>
         <h3>Walk-In Showers</h3>
-        <p>Curbless or low-threshold entry, large-format tile, frameless glass enclosure, linear drain, and full Kerdi waterproofing. The most requested bathroom upgrade in Bend.</p>
+        <p>Curbless or low-threshold entry, large-format tile, frameless glass enclosure, linear drain, and full Kerdi waterproofing. The most requested bathroom upgrade in Eugene.</p>
       </div>
       <div class="bento-card card-tint-2 reveal-up reveal-delay-2">
         <div class="bento-card__icon"><i data-lucide="thermometer" aria-hidden="true"></i></div>
         <h3>Heated Floors</h3>
-        <p>Electric radiant floor mats under tile — warm feet on Bend's cold mornings, dedicated circuit, programmable thermostat.</p>
+        <p>Electric radiant floor mats under tile — warm feet on Eugene's cool, damp mornings, dedicated circuit, programmable thermostat.</p>
       </div>
       <div class="bento-card card-tint-3 reveal-up reveal-delay-3">
         <div class="bento-card__icon"><i data-lucide="square" aria-hidden="true"></i></div>
@@ -445,8 +445,8 @@ $breadcrumbSchema = generateBreadcrumbSchema([
   <div class="container">
     <div class="section-title reveal-up">
       <span class="eyebrow-label">Common Questions</span>
-      <h2>What Do Homeowners Ask About <span class="text-accent">Bathroom Remodeling</span> in Bend?</h2>
-      <p class="answer-block">Homeowners in Bend and Central Oregon typically ask about costs, timelines, tub-to-shower conversions, plumbing work, and waterproofing methods. Below are the questions we hear most — with direct answers from our team.</p>
+      <h2>What Do Homeowners Ask About <span class="text-accent">Bathroom Remodeling</span> in Eugene?</h2>
+      <p class="answer-block">Homeowners in Eugene and Lane County typically ask about costs, timelines, tub-to-shower conversions, plumbing work, and waterproofing methods. Below are the questions we hear most — with direct answers from our team.</p>
     </div>
     <div class="faq-list">
       <?php foreach ($pageFaqs as $i => $faq): ?>
@@ -466,16 +466,16 @@ $breadcrumbSchema = generateBreadcrumbSchema([
     <div class="section-title reveal-up">
       <span class="eyebrow-label">More Services</span>
       <h2>What Other <span class="text-accent">Construction Services</span> Do We Offer?</h2>
-      <p class="answer-block">Beyond bathroom remodeling, Marty Mar Construction handles kitchen renovations, whole-home remodeling, new construction, room additions, and custom deck building across Central Oregon.</p>
+      <p class="answer-block">Beyond bathroom remodeling, Marty Mar Construction handles kitchen renovations, whole-home remodeling, new construction, room additions, and custom deck building across the Eugene area.</p>
     </div>
     <div class="related-grid">
       <?php
       $relatedBullets = [
-          'new-home-construction'  => ['Custom floor plans for your lot', 'Foundation-to-finish oversight', 'Snow-load rated framing'],
+          'new-home-construction'  => ['Custom floor plans for your lot', 'Foundation-to-finish oversight', 'Moisture-resistant construction'],
           'home-additions'         => ['Seamless match to existing structure', 'Second-story expansions', 'ADU and garage conversions'],
           'remodeling-renovations' => ['Whole-home transformations', 'Structural and cosmetic work', 'On-schedule, on-budget delivery'],
           'kitchen-remodeling'     => ['Custom cabinetry and countertops', 'Layout and structural changes', 'Lighting and appliance planning'],
-          'deck-outdoor-structures'=> ['Composite and timber options', 'Engineered for Oregon snow loads', 'Pergolas, porches, and shade structures'],
+          'deck-outdoor-structures'=> ['Composite and timber options', 'Engineered for Oregon rain and moisture', 'Pergolas, porches, and shade structures'],
       ];
       $related = array_filter($services, fn($s) => $s['slug'] !== 'bathroom-remodeling');
       $related = array_values($related);
@@ -487,7 +487,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       ?>
       <article class="service-card-with-image card-tint-<?php echo $tint; ?> reveal-up reveal-delay-<?php echo $i + 1; ?>">
         <div class="service-card__image">
-          <img src="<?php echo htmlspecialchars($svc['image']); ?>" alt="<?php echo htmlspecialchars($svc['name']); ?> in Bend, Oregon" width="600" height="360" loading="lazy">
+          <img src="<?php echo htmlspecialchars($svc['image']); ?>" alt="<?php echo htmlspecialchars($svc['name']); ?> in Eugene, Oregon" width="600" height="360" loading="lazy">
         </div>
         <div class="service-card__body">
           <div class="service-card__icon"><i data-lucide="<?php echo htmlspecialchars($svc['icon']); ?>"></i></div>

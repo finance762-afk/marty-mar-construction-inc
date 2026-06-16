@@ -9,8 +9,8 @@ foreach ($services as $svc) {
     if ($svc['slug'] === 'remodeling-renovations') { $currentService = $svc; break; }
 }
 
-$pageTitle       = 'Home Remodeling Bend OR | Renovation Contractor | ' . $siteName;
-$pageDescription = 'Marty Mar Construction remodels homes in Bend, Redmond, Sisters, and Central Oregon. From single-room refreshes to whole-home renovations. Licensed since ' . $yearEstablished . '. Call ' . $phone . '.';
+$pageTitle       = 'Home Remodeling Eugene OR | Renovation Contractor | ' . $siteName;
+$pageDescription = 'Marty Mar Construction remodels homes in Eugene, Springfield, Cottage Grove, and Lane County, Oregon. From single-room refreshes to whole-home renovations. Licensed since ' . $yearEstablished . '. Call ' . $phone . '.';
 $canonicalUrl    = $siteUrl . '/services/remodeling-renovations/';
 $ogImage         = $currentService['image'];
 $currentPage     = 'services';
@@ -19,11 +19,11 @@ $cssVersion      = '4.1';
 
 // ── Page FAQs ─────────────────────────────────────────────────
 $pageFaqs = [
-    ['q' => 'How much does a home remodel cost in Bend, Oregon?', 'a' => 'Home remodeling costs in Bend vary widely by scope. Minor cosmetic updates run $15,000-$40,000, mid-range remodels $50,000-$150,000, and whole-home renovations $150,000-$400,000+. We provide a detailed written estimate after a site visit and scope discussion.'],
-    ['q' => 'How long does a full home renovation take in Central Oregon?', 'a' => 'Single-room remodels typically take 3-6 weeks. Multi-room renovations run 8-16 weeks. Whole-home gut-and-rebuild projects average 4-8 months depending on scope, structural changes, and permitting. We set a detailed schedule before work begins.'],
+    ['q' => 'How much does a home remodel cost in Eugene, Oregon?', 'a' => 'Home remodeling costs in Eugene vary widely by scope. Minor cosmetic updates run $15,000-$40,000, mid-range remodels $50,000-$150,000, and whole-home renovations $150,000-$400,000+. We provide a detailed written estimate after a site visit and scope discussion.'],
+    ['q' => 'How long does a full home renovation take in the Eugene area?', 'a' => 'Single-room remodels typically take 3-6 weeks. Multi-room renovations run 8-16 weeks. Whole-home gut-and-rebuild projects average 4-8 months depending on scope, structural changes, and permitting. We set a detailed schedule before work begins.'],
     ['q' => 'Do I need to move out during a whole-home remodel?', 'a' => 'It depends on the scope. For whole-home renovations involving structural changes, electrical rewiring, or plumbing rerouting, we recommend relocating temporarily. For single-room or phased remodels, most homeowners stay in place. We plan around your living situation.'],
-    ['q' => 'Does Marty Mar Construction handle structural changes?', 'a' => 'Yes. We handle load-bearing wall removal, floor plan reconfiguration, foundation modifications, and roofline changes. All structural work is engineered and permitted through Deschutes County with inspections at every stage.'],
-    ['q' => 'Can you remodel older homes in Bend without losing their character?', 'a' => 'Absolutely. Many Bend homes from the 1970s-1990s have solid bones but dated finishes and inefficient layouts. We preserve architectural details worth keeping while modernizing systems, insulation, and living spaces for today\'s standards.'],
+    ['q' => 'Does Marty Mar Construction handle structural changes?', 'a' => 'Yes. We handle load-bearing wall removal, floor plan reconfiguration, foundation modifications, and roofline changes. All structural work is engineered and permitted through Lane County with inspections at every stage.'],
+    ['q' => 'Can you remodel older homes in Eugene without losing their character?', 'a' => 'Absolutely. Many Eugene homes from the 1970s-1990s have solid bones but dated finishes and inefficient layouts. We preserve architectural details worth keeping while modernizing systems, insulation, and living spaces for today\'s standards.'],
     ['q' => 'Are you licensed and insured for remodeling work in Oregon?', 'a' => 'Yes. Marty Mar Construction Inc is fully licensed as a general contractor in Oregon with general liability insurance and workers\' compensation coverage. License documentation and insurance certificates are available on request.'],
 ];
 
@@ -260,8 +260,8 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       <a href="/services/">Services</a><span class="breadcrumb-sep" aria-hidden="true">/</span>
       <span aria-current="page">Remodeling &amp; Renovations</span>
     </nav>
-    <h1>Home Remodeling in <span class="text-accent">Bend, Oregon</span></h1>
-    <p class="hero-answer"><?php echo htmlspecialchars($siteName); ?> remodels homes across Bend, Redmond, Sisters, and Central Oregon — from single-room refreshes to whole-home transformations. We handle structural changes, finish work, flooring, cabinetry, and everything in between with licensed tradespeople and transparent pricing.</p>
+    <h1>Home Remodeling in <span class="text-accent">Eugene, Oregon</span></h1>
+    <p class="hero-answer"><?php echo htmlspecialchars($siteName); ?> remodels homes across Eugene, Springfield, Cottage Grove, and Lane County — from single-room refreshes to whole-home transformations. We handle structural changes, finish work, flooring, cabinetry, and everything in between with licensed tradespeople and transparent pricing.</p>
     <div class="hero-ctas">
       <a href="/contact/" class="btn-primary"><i data-lucide="file-text" aria-hidden="true"></i> Get a Free Estimate</a>
       <a href="tel:<?php echo $phonePlain; ?>" class="btn-secondary btn-secondary--light"><i data-lucide="phone" aria-hidden="true"></i> Call <?php echo $phone; ?></a>
@@ -269,7 +269,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
     <div class="hero-trust">
       <span><i data-lucide="shield-check" aria-hidden="true"></i> Licensed &amp; Insured</span>
       <span><i data-lucide="calendar" aria-hidden="true"></i> Since <?php echo $yearEstablished; ?></span>
-      <span><i data-lucide="map-pin" aria-hidden="true"></i> Central Oregon</span>
+      <span><i data-lucide="map-pin" aria-hidden="true"></i> Eugene &amp; Lane County</span>
     </div>
   </div>
   <div class="section-divider section-divider--bottom">
@@ -285,31 +285,31 @@ $breadcrumbSchema = generateBreadcrumbSchema([
     <div class="content-asym">
       <div class="content-text reveal-up">
         <span class="eyebrow-label">Transform Your Home</span>
-        <h2>What Remodeling Services Does <span class="text-accent">Marty Mar</span> Offer in Bend?</h2>
-        <p class="answer-block">Marty Mar Construction offers complete home remodeling services in Bend and Central Oregon — including single-room refreshes, multi-room renovations, whole-home gut-and-rebuild projects, structural modifications, and cosmetic finish upgrades. Every project is managed directly by Marty with a written scope and schedule.</p>
+        <h2>What Remodeling Services Does <span class="text-accent">Marty Mar</span> Offer in Eugene?</h2>
+        <p class="answer-block">Marty Mar Construction offers complete home remodeling services in Eugene and Lane County — including single-room refreshes, multi-room renovations, whole-home gut-and-rebuild projects, structural modifications, and cosmetic finish upgrades. Every project is managed directly by Marty with a written scope and schedule.</p>
 
-        <p class="identity-sentence"><?php echo htmlspecialchars($siteName); ?> is a licensed Oregon general contractor based in Bend, delivering home remodeling and renovation services across Central Oregon since <?php echo $yearEstablished; ?>.</p>
+        <p class="identity-sentence"><?php echo htmlspecialchars($siteName); ?> is a licensed Oregon general contractor based in Eugene, delivering home remodeling and renovation services across Lane County since <?php echo $yearEstablished; ?>.</p>
 
         <p>A remodel is only as good as the plan behind it. Before we swing a hammer, we walk your home to understand its bones — structural framing, load paths, plumbing routing, and electrical capacity. That assessment drives the scope of work, catches hidden problems early, and keeps the project from ballooning once walls are open.</p>
 
-        <p>Central Oregon homes face conditions that generic remodeling guides don't cover. Bend's freeze-thaw cycling cracks rigid materials in bathrooms and entryways. UV exposure at 3,600 feet degrades cheap flooring near south-facing windows within a few years. We specify materials and installation methods that handle these conditions, not just what looks good in a showroom.</p>
+        <p>Willamette Valley homes face conditions that generic remodeling guides don't cover. Eugene's persistent rain and moisture exposure cause mold and rot in poorly sealed bathrooms and entryways. Humidity from Oregon's wet winters degrades cheap flooring and wall finishes within a few years. We specify materials and installation methods that handle these conditions, not just what looks good in a showroom.</p>
 
-        <p>Whether you're updating a 1980s ranch in the Old Farm District or modernizing a lodge-style home near Mt. Bachelor, we tailor each remodel to your home's architecture, your budget, and your daily routine.</p>
+        <p>Whether you're updating a 1980s ranch in the River Road area or modernizing a craftsman-style home near the University of Oregon, we tailor each remodel to your home's architecture, your budget, and your daily routine.</p>
 
         <p>Last updated: <?php echo date('F Y'); ?></p>
       </div>
       <div class="content-sidebar reveal-right">
         <div class="sidebar-image">
-          <img src="<?php echo htmlspecialchars($clientPhotos[9]); ?>" alt="Home renovation project by Marty Mar Construction in Bend, Oregon" width="500" height="400" loading="lazy">
+          <img src="<?php echo htmlspecialchars($clientPhotos[9]); ?>" alt="Home renovation project by Marty Mar Construction in Eugene, Oregon" width="500" height="400" loading="lazy">
         </div>
         <div class="sidebar-stats">
           <div class="sidebar-stat">
             <div class="sidebar-stat__number" data-target="<?php echo $yearsInBusiness; ?>">0</div>
-            <div class="sidebar-stat__text">Years remodeling homes in Central Oregon</div>
+            <div class="sidebar-stat__text">Years remodeling homes in the Eugene area</div>
           </div>
           <div class="sidebar-stat">
             <div class="sidebar-stat__number">6</div>
-            <div class="sidebar-stat__text">Cities served across Deschutes &amp; Crook counties</div>
+            <div class="sidebar-stat__text">Cities served across Lane County</div>
           </div>
         </div>
       </div>
@@ -326,8 +326,8 @@ $breadcrumbSchema = generateBreadcrumbSchema([
   <div class="container">
     <div class="section-title reveal-up">
       <span class="eyebrow-label">Scope Options</span>
-      <h2>How Much Does a Home Remodel <span class="text-accent">Cost in Bend</span>?</h2>
-      <p class="answer-block">Home remodeling costs in the Bend area range from $15,000 for cosmetic updates to $400,000+ for whole-home renovations. The three scope levels below cover most projects we build — each includes a detailed written estimate before any work begins.</p>
+      <h2>How Much Does a Home Remodel <span class="text-accent">Cost in Eugene</span>?</h2>
+      <p class="answer-block">Home remodeling costs in the Eugene area range from $15,000 for cosmetic updates to $400,000+ for whole-home renovations. The three scope levels below cover most projects we build — each includes a detailed written estimate before any work begins.</p>
     </div>
     <div class="scope-grid">
       <div class="scope-card card-tint-1 reveal-up reveal-delay-1">
@@ -386,7 +386,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       </div>
       <div class="step-item reveal-up reveal-delay-2">
         <h3>Design &amp; Permits</h3>
-        <p>Finalize plans, select materials and finishes, pull permits through Deschutes County.</p>
+        <p>Finalize plans, select materials and finishes, pull permits through Lane County.</p>
       </div>
       <div class="step-item reveal-up reveal-delay-3">
         <h3>Demo &amp; Build</h3>
@@ -409,8 +409,8 @@ $breadcrumbSchema = generateBreadcrumbSchema([
   <div class="container">
     <div class="section-title reveal-up">
       <span class="eyebrow-label">Common Questions</span>
-      <h2>What Do Homeowners Ask About <span class="text-accent">Remodeling</span> in Bend?</h2>
-      <p class="answer-block">Homeowners considering a remodel in Bend and Central Oregon typically ask about costs, timelines, living arrangements during construction, and structural changes. Below are the questions we hear most — with honest, direct answers.</p>
+      <h2>What Do Homeowners Ask About <span class="text-accent">Remodeling</span> in Eugene?</h2>
+      <p class="answer-block">Homeowners considering a remodel in Eugene and Lane County typically ask about costs, timelines, living arrangements during construction, and structural changes. Below are the questions we hear most — with honest, direct answers.</p>
     </div>
     <div class="faq-list">
       <?php foreach ($pageFaqs as $i => $faq): ?>
@@ -430,16 +430,16 @@ $breadcrumbSchema = generateBreadcrumbSchema([
     <div class="section-title reveal-up">
       <span class="eyebrow-label">More Services</span>
       <h2>What Other <span class="text-accent">Construction Services</span> Do We Offer?</h2>
-      <p class="answer-block">Beyond remodeling, Marty Mar Construction handles new home construction, room additions, kitchen and bathroom renovations, and custom deck building across Central Oregon. Every service includes licensed tradespeople and transparent pricing.</p>
+      <p class="answer-block">Beyond remodeling, Marty Mar Construction handles new home construction, room additions, kitchen and bathroom renovations, and custom deck building across the Eugene area. Every service includes licensed tradespeople and transparent pricing.</p>
     </div>
     <div class="related-grid">
       <?php
       $relatedBullets = [
-          'new-home-construction'  => ['Custom floor plans for your lot', 'Foundation-to-finish oversight', 'Snow-load rated framing'],
+          'new-home-construction'  => ['Custom floor plans for your lot', 'Foundation-to-finish oversight', 'Moisture-resistant construction'],
           'home-additions'         => ['Seamless match to existing structure', 'Second-story expansions', 'ADU and garage conversions'],
           'bathroom-remodeling'    => ['Walk-in showers and soaking tubs', 'Custom tile and vanity work', 'Full gut or targeted upgrades'],
           'kitchen-remodeling'     => ['Custom cabinetry and countertops', 'Layout and structural changes', 'Lighting and appliance planning'],
-          'deck-outdoor-structures'=> ['Composite and timber options', 'Engineered for Oregon snow loads', 'Pergolas, porches, and shade structures'],
+          'deck-outdoor-structures'=> ['Composite and timber options', 'Engineered for Oregon rain and moisture', 'Pergolas, porches, and shade structures'],
       ];
       $related = array_filter($services, fn($s) => $s['slug'] !== 'remodeling-renovations');
       $related = array_values($related);
@@ -451,7 +451,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       ?>
       <article class="service-card-with-image card-tint-<?php echo $tint; ?> reveal-up reveal-delay-<?php echo $i + 1; ?>">
         <div class="service-card__image">
-          <img src="<?php echo htmlspecialchars($svc['image']); ?>" alt="<?php echo htmlspecialchars($svc['name']); ?> in Bend, Oregon" width="600" height="360" loading="lazy">
+          <img src="<?php echo htmlspecialchars($svc['image']); ?>" alt="<?php echo htmlspecialchars($svc['name']); ?> in Eugene, Oregon" width="600" height="360" loading="lazy">
         </div>
         <div class="service-card__body">
           <div class="service-card__icon"><i data-lucide="<?php echo htmlspecialchars($svc['icon']); ?>"></i></div>

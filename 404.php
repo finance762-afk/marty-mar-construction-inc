@@ -5,7 +5,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 <?php
 // ── Page-Level Setup ──────────────────────────────────────────
 $pageTitle       = 'Page Not Found | ' . $siteName;
-$pageDescription = 'The page you are looking for could not be found. Return to ' . $siteName . ' homepage or browse our construction services in Bend, OR.';
+$pageDescription = 'The page you are looking for could not be found. Return to ' . $siteName . ' homepage or browse our construction services in Eugene, OR.';
 $canonicalUrl    = $siteUrl . '/404';
 $currentPage     = '404';
 $noindex         = true;
@@ -141,7 +141,7 @@ $cssVersion      = '5.0';
         <a href="/services/<?php echo $svc['slug']; ?>/"><?php echo htmlspecialchars($svc['name']); ?></a>
         <?php endforeach; ?>
         <a href="/about/">About Us</a>
-        <a href="/service-area/">Service Area</a>
+        <a href="/service-area/">Eugene &amp; Surrounding Areas</a>
         <a href="/contact/">Contact</a>
       </div>
     </div>

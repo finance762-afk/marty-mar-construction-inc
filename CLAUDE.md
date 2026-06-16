@@ -9,8 +9,9 @@
 CLAUDE.md is the **enforcement layer** — it defines what a build must contain and what's forbidden. The **how** lives in reference files. Read the references before writing code:
 
 - `~/crm/references/design-system.md` — visual architecture, CSS tokens, premium technique library, visual vocabulary archetypes (**READ FIRST**)
-- `~/crm/references/seo-aeo-2026.md` — SEO + AEO specifications, schema markup, llms.txt patterns
+- `~/crm/references/seo-aeo-2026.md` — SEO + AEO specifications, schema markup, sitemap.php, llms.txt patterns
 - `~/crm/references/build-phases.md` — PHP architecture, build phase order, deployment pipeline
+- `~/crm/references/blog-standard.md` — blog registry, post anatomy, topic clusters (Premium builds)
 
 Rules below win when they conflict with anything in references.
 
@@ -117,8 +118,8 @@ Complete page templates, consent HTML/CSS, footer legal row, sitemap entries, Ph
 
 - Phase 2 (Header/Footer/Head) must include the footer legal row.
 - Phase 4 (Inner Pages) must generate all 4 legal page subdirectories.
-- Phase 5 (SEO/Final Polish) must add legal pages to sitemap.xml.
-- QA must verify all checklist items in Section 11 of legal-compliance.md.
+- Phase 5 (SEO/Final Polish) must ensure legal pages are in the sitemap.php page registry.
+- QA must verify the compliance items in legal-compliance.md: four legal pages, footer legal row, cookie banner, TCPA consent checkboxes, sitemap entries.
 
 ---
 
@@ -287,6 +288,10 @@ The rewrite rules MUST exclude `/assets/` and `/includes/`, and MUST NOT use `!-
 
 ```apache
 RewriteEngine On
+
+# Dynamic sitemap — /sitemap.xml is served by sitemap.php
+RewriteRule ^sitemap\.xml$ /sitemap.php [L]
+
 RewriteCond %{REQUEST_URI} !^/assets/
 RewriteCond %{REQUEST_URI} !^/includes/
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -295,7 +300,9 @@ RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
 RewriteRule ^ /%1 [NC,L,R=301]
 ```
 
-The `!-d` condition is intentionally removed. Without this fix, pages inside real subdirectories like `services/kitchen-remodeling.php` fail to resolve on Hostinger.
+The `!-d` condition is intentionally removed. Without this fix, pages inside real subdirectories fail to resolve on Hostinger.
+
+**URL shape rule:** ALL pages — including service pages — are built as `directory/index.php` with trailing-slash URLs (`/services/roof-repair/`). Never the dual flat-`.php` + directory-stub pattern (canonical/internal-link mismatch). See build-phases.md.
 
 ---
 
@@ -432,6 +439,20 @@ See site-qa-agent/SKILL.md for validator implementation.
 
 ---
 
+## Blog Standard (Premium — REQUIRED)
+
+Every Premium build ships a blog. Full spec: `~/crm/references/blog-standard.md`. Enforcement summary:
+
+- **Registry:** `includes/blog-data.php` — single `$blogPosts` array (slug, title, excerpt, image, alt, date, dateISO, category, readtime). The blog index, homepage preview, related-articles blocks, and sitemap.php ALL read from this registry. Hardcoded post lists anywhere = fail.
+- **Structure:** `/blog/index.php` (editorial cards, category badges) + `/blog/{slug}/index.php` per post.
+- **Homepage:** "From the Blog" preview section auto-pulling the latest registry post (featured card: image, category badge, date, read time, excerpt, CTA) + View All button.
+- **Post anatomy:** answer-first intro (direct answer in first 50 words), TOC sidebar with anchors, sidebar CTA, Related Services block, Related Articles block (2-3 registry cards, same category first), ≥2 inline links to other posts and ≥2 to service pages in body copy.
+- **Schema per post:** @graph — BlogPosting (author = Organization @id, datePublished/dateModified, keywords) + BreadcrumbList + FAQPage mirroring the visible FAQ.
+- **SEO:** post titles ≤60 chars (no full brand suffix), unique descriptions, self-referencing canonical, auto-included in sitemap.php.
+- **Content strategy:** topic clusters — 1 pillar + 4-7 supporting posts answering related long-tail questions, targeting DataForSEO keyword gaps.
+
+---
+
 ## Pointers to Reference Files
 
 For anything not covered above:
@@ -439,6 +460,8 @@ For anything not covered above:
 - **Visual architecture, CSS tokens, technique library, archetypes** → `~/crm/references/design-system.md`
 - **SEO schema, meta tags, llms.txt, AEO content rules** → `~/crm/references/seo-aeo-2026.md`
 - **PHP component structure, build phases, file organization, deployment** → `~/crm/references/build-phases.md`
+- **Blog registry, post anatomy, topic clusters** → `~/crm/references/blog-standard.md`
+- **Legal pages, TCPA consent, cookie banner, footer legal row** → `~/crm/references/legal-compliance.md`
 
 If a requirement is not explicitly in this file and not in a reference file, it does not exist. Do not invent requirements.
 

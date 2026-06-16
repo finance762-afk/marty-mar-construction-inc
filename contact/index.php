@@ -4,8 +4,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 ?>
 <?php
 // ── Page-Level Setup ──────────────────────────────────────────
-$pageTitle       = 'Contact Marty Mar Construction | Free Estimate | Bend, OR';
-$pageDescription = 'Contact Marty Mar Construction Inc for a free project estimate in Bend, Redmond, Sisters, and Central Oregon. Call ' . $phone . ' or fill out our online form. Licensed general contractor since ' . $yearEstablished . '.';
+$pageTitle       = 'Contact Marty Mar Construction | Free Estimate | Eugene, OR';
+$pageDescription = 'Contact Marty Mar Construction Inc for a free project estimate in Eugene, Springfield, Cottage Grove, and Lane County. Call ' . $phone . ' or fill out our online form. Licensed general contractor since ' . $yearEstablished . '.';
 $canonicalUrl    = $siteUrl . '/contact/';
 $ogImage         = $clientPhotos[0];
 $currentPage     = 'contact';
@@ -347,7 +347,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
     </nav>
     <span class="eyebrow-label">Get In Touch</span>
     <h1>Start Your <span class="text-accent">Project</span> Today</h1>
-    <p class="contact-hero-subtitle">Call <?php echo $phone; ?> or fill out the form below for a free, no-obligation estimate on your next construction project in Central Oregon.</p>
+    <p class="contact-hero-subtitle">Call <?php echo $phone; ?> or fill out the form below for a free, no-obligation estimate on your next construction project in the Eugene area.</p>
   </div>
 
   <div class="section-divider section-divider--bottom">
@@ -486,14 +486,14 @@ $breadcrumbSchema = generateBreadcrumbSchema([
             <div class="info-icon"><i data-lucide="map" aria-hidden="true"></i></div>
             <div>
               <h4>Service Area</h4>
-              <p>Bend, Redmond, Sisters, Sunriver, La Pine, Prineville, and surrounding Central Oregon communities.</p>
+              <p>Eugene, Springfield, Cottage Grove, Junction City, Veneta, Creswell, and surrounding Lane County communities.</p>
             </div>
           </div>
         </div>
 
         <!-- Map -->
         <div class="map-card reveal-right">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d91498.6844!2d-121.4!3d44.058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54b8c0ffa5d3d251%3A0x1088e7acc720d1b4!2sBend%2C%20OR!5e0!3m2!1sen!2sus!4v1" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Marty Mar Construction service area — Bend, Oregon"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d91498.6844!2d-123.0868!3d44.0521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54c119b0ac501919%3A0x57ec61894a43894d!2sEugene%2C%20OR!5e0!3m2!1sen!2sus!4v1" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Marty Mar Construction service area — Eugene, Oregon"></iframe>
         </div>
       </div>
 

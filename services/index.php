@@ -4,8 +4,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 ?>
 <?php
 // ── Page-Level Setup ──────────────────────────────────────────
-$pageTitle       = 'Construction Services in Bend, OR | ' . $siteName;
-$pageDescription = $siteName . ' offers new home construction, additions, remodeling, kitchen and bathroom renovations, and custom deck building in Bend, Redmond, Sisters, and Central Oregon. Call ' . $phone . ' for a free estimate.';
+$pageTitle       = 'Construction Services in Eugene, OR | ' . $siteName;
+$pageDescription = $siteName . ' offers new home construction, additions, remodeling, kitchen and bathroom renovations, and custom deck building in Eugene, Springfield, Cottage Grove, and Lane County. Call ' . $phone . ' for a free estimate.';
 $canonicalUrl    = $siteUrl . '/services/';
 $ogImage         = $services[0]['image'];
 $currentPage     = 'services';
@@ -252,8 +252,8 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       <span class="breadcrumb-sep" aria-hidden="true">/</span>
       <span aria-current="page">Services</span>
     </nav>
-    <h1>Construction Services in <span class="text-accent">Bend, Oregon</span></h1>
-    <p class="hero-answer"><?php echo htmlspecialchars($siteName); ?> is a licensed general contractor in Bend, OR, offering new home construction, room additions, whole-home remodeling, kitchen and bathroom renovations, and custom deck building. We serve homeowners across Central Oregon with hands-on project management and transparent pricing.</p>
+    <h1>Construction Services in <span class="text-accent">Eugene, Oregon</span></h1>
+    <p class="hero-answer"><?php echo htmlspecialchars($siteName); ?> is a licensed general contractor in Eugene, OR, offering new home construction, room additions, whole-home remodeling, kitchen and bathroom renovations, and custom deck building. We serve homeowners across Lane County and the Willamette Valley with hands-on project management and transparent pricing.</p>
   </div>
 
   <div class="section-divider section-divider--bottom">
@@ -273,8 +273,8 @@ $breadcrumbSchema = generateBreadcrumbSchema([
   <div class="container">
     <div class="section-title reveal-up">
       <span class="eyebrow-label">What We Do</span>
-      <h2>What <span class="text-accent">Construction Services</span> Are Available in Central Oregon?</h2>
-      <p class="answer-block">Marty Mar Construction offers six core construction services for homeowners in Bend, Redmond, Sisters, Sunriver, La Pine, and Prineville. From custom home builds to single-room renovations, every project includes licensed tradespeople, direct communication, and a written estimate before work begins.</p>
+      <h2>What <span class="text-accent">Construction Services</span> Are Available in the Eugene Area?</h2>
+      <p class="answer-block">Marty Mar Construction offers six core construction services for homeowners in Eugene, Springfield, Cottage Grove, Junction City, Veneta, and Creswell. From custom home builds to single-room renovations, every project includes licensed tradespeople, direct communication, and a written estimate before work begins.</p>
       <span class="section-subtitle">Everything under one roof</span>
     </div>
 
@@ -282,12 +282,12 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       <?php
       $tintCycle = [1, 2, 3];
       $serviceBullets = [
-          'new-home-construction'  => ['Custom floor plans for your lot', 'Foundation-to-finish oversight', 'Snow-load rated framing'],
+          'new-home-construction'  => ['Custom floor plans for your lot', 'Foundation-to-finish oversight', 'Moisture-resistant framing'],
           'home-additions'         => ['Seamless match to existing structure', 'Second-story expansions', 'ADU and garage conversions'],
           'remodeling-renovations' => ['Whole-home transformations', 'Structural and cosmetic work', 'On-schedule, on-budget delivery'],
           'bathroom-remodeling'    => ['Walk-in showers and soaking tubs', 'Custom tile and vanity work', 'Full gut or targeted upgrades'],
           'kitchen-remodeling'     => ['Custom cabinetry and countertops', 'Layout and structural changes', 'Lighting and appliance planning'],
-          'deck-outdoor-structures'=> ['Composite and timber options', 'Engineered for Oregon snow loads', 'Pergolas, porches, and shade structures'],
+          'deck-outdoor-structures'=> ['Composite and timber options', 'Engineered for Oregon rain and moisture', 'Pergolas, porches, and shade structures'],
       ];
       foreach ($services as $i => $svc):
         $tint = $tintCycle[$i % 3];
@@ -296,7 +296,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       ?>
       <article class="service-card-with-image card-tint-<?php echo $tint; ?> reveal-up reveal-delay-<?php echo $delay; ?>">
         <div class="service-card__image">
-          <img src="<?php echo htmlspecialchars($svc['image']); ?>" alt="<?php echo htmlspecialchars($svc['name']); ?> in Bend, Oregon" width="600" height="360" loading="lazy">
+          <img src="<?php echo htmlspecialchars($svc['image']); ?>" alt="<?php echo htmlspecialchars($svc['name']); ?> in Eugene, Oregon" width="600" height="360" loading="lazy">
         </div>
         <div class="service-card__body">
           <div class="service-card__icon"><i data-lucide="<?php echo htmlspecialchars($svc['icon']); ?>"></i></div>
@@ -329,8 +329,8 @@ $breadcrumbSchema = generateBreadcrumbSchema([
   <div class="container">
     <div class="section-title reveal-up">
       <span class="eyebrow-label">Why Us</span>
-      <h2>Why Do Bend Homeowners Choose <span class="text-accent">Marty Mar</span>?</h2>
-      <p class="answer-block">Homeowners in Bend and Central Oregon choose Marty Mar Construction for direct communication, transparent pricing, and <?php echo $yearsInBusiness; ?>+ years of hands-on experience building in high-desert conditions. We manage every phase in-house — no subcontractor runaround, no surprise change orders.</p>
+      <h2>Why Do Eugene Homeowners Choose <span class="text-accent">Marty Mar</span>?</h2>
+      <p class="answer-block">Homeowners in Eugene and Lane County choose Marty Mar Construction for direct communication, transparent pricing, and <?php echo $yearsInBusiness; ?>+ years of hands-on experience building in Willamette Valley conditions. We manage every phase in-house — no subcontractor runaround, no surprise change orders.</p>
     </div>
 
     <div class="why-grid">
@@ -349,10 +349,10 @@ $breadcrumbSchema = generateBreadcrumbSchema([
         </div>
       </div>
       <div class="why-card reveal-up reveal-delay-3">
-        <div class="card-icon"><i data-lucide="mountain-snow" aria-hidden="true"></i></div>
+        <div class="card-icon"><i data-lucide="cloud-rain" aria-hidden="true"></i></div>
         <div>
-          <h3>Built for Central Oregon</h3>
-          <p>We engineer for snow loads, freeze-cycle foundations, UV-resistant finishes, and high-desert soil conditions — because Bend isn't Portland.</p>
+          <h3>Built for the Willamette Valley</h3>
+          <p>We engineer for moisture management, rain-resistant building envelopes, proper drainage, and clay-rich valley soil conditions — because Eugene's climate demands it.</p>
         </div>
       </div>
       <div class="why-card reveal-up reveal-delay-4">

@@ -8,7 +8,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 
 // Defaults for page-level variables (set before including head.php)
 $pageTitle       = $pageTitle       ?? $siteName . ' | General Contractor in ' . $address['city'] . ', ' . $address['state'];
-$pageDescription = $pageDescription ?? $siteName . ' builds, remodels, and renovates homes across Central Oregon. Licensed general contractor serving ' . $address['city'] . ', Redmond, Sisters, and surrounding communities since ' . $yearEstablished . '.';
+$pageDescription = $pageDescription ?? $siteName . ' builds, remodels, and renovates homes across the Eugene area and Lane County. Licensed general contractor serving ' . $address['city'] . ', Springfield, Cottage Grove, and surrounding communities since ' . $yearEstablished . '.';
 $canonicalUrl    = $canonicalUrl    ?? $siteUrl . '/';
 $currentPage     = $currentPage     ?? 'home';
 $noindex         = $noindex         ?? false;
@@ -93,7 +93,7 @@ $useTyped        = $useTyped        ?? false;
       "url": "<?php echo $siteUrl; ?>",
       "logo": "<?php echo htmlspecialchars($logoUrl); ?>",
       "image": "<?php echo htmlspecialchars($clientPhotos[0] ?? $logoUrl); ?>",
-      "description": "<?php echo htmlspecialchars($siteName); ?> is a licensed general contractor serving <?php echo $address['city']; ?>, <?php echo $address['state']; ?>, and Central Oregon since <?php echo $yearEstablished; ?>. We specialize in new home construction, additions, remodeling, kitchen and bathroom renovations, and custom deck building.",
+      "description": "<?php echo htmlspecialchars($siteName); ?> is a licensed general contractor serving <?php echo $address['city']; ?>, <?php echo $address['state']; ?>, and Lane County since <?php echo $yearEstablished; ?>. We specialize in new home construction, additions, remodeling, kitchen and bathroom renovations, and custom deck building.",
       "telephone": "<?php echo $phone; ?>",
       "email": "<?php echo $email; ?>",
       "address": {

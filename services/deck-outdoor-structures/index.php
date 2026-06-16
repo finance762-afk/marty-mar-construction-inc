@@ -9,8 +9,8 @@ foreach ($services as $svc) {
     if ($svc['slug'] === 'deck-outdoor-structures') { $currentService = $svc; break; }
 }
 
-$pageTitle       = 'Deck Builder Bend OR | Pergolas & Outdoor Structures | ' . $siteName;
-$pageDescription = 'Marty Mar Construction builds custom decks, covered porches, pergolas, and outdoor structures in Bend, Redmond, Sisters, and Central Oregon. Engineered for snow loads and UV. Call ' . $phone . '.';
+$pageTitle       = 'Deck Builder Eugene OR | Pergolas & Outdoor Structures | ' . $siteName;
+$pageDescription = 'Marty Mar Construction builds custom decks, covered porches, pergolas, and outdoor structures in Eugene, Springfield, Cottage Grove, and Lane County, Oregon. Engineered for rain and moisture. Call ' . $phone . '.';
 $canonicalUrl    = $siteUrl . '/services/deck-outdoor-structures/';
 $ogImage         = $currentService['image'];
 $currentPage     = 'services';
@@ -19,12 +19,12 @@ $cssVersion      = '4.1';
 
 // ── Page FAQs ─────────────────────────────────────────────────
 $pageFaqs = [
-    ['q' => 'How much does a new deck cost in Bend, Oregon?', 'a' => 'Deck costs in Bend range from $30-$50 per square foot for pressure-treated lumber to $60-$100+ per square foot for composite or hardwood decking. A typical 300 sq ft composite deck runs $20,000-$35,000 installed, including railings, stairs, and footings. Complex multi-level designs and covered structures cost more.'],
-    ['q' => 'What decking material works best in Central Oregon?', 'a' => 'Composite decking (Trex, TimberTech) is the most popular choice in Bend — it handles UV exposure, freeze-thaw cycling, and snow loads without splitting, warping, or annual sealing. Cedar is a solid natural alternative but requires yearly maintenance. Pressure-treated pine is the most affordable but has a shorter lifespan at elevation.'],
-    ['q' => 'Do I need a permit to build a deck in Deschutes County?', 'a' => 'Yes. Most decks over 30 inches above grade or attached to a structure require a building permit in Deschutes County or the City of Bend. We handle all permitting, including structural plans, footing depth calculations, and inspection coordination from start to final sign-off.'],
-    ['q' => 'How long does it take to build a deck in Bend?', 'a' => 'Most standard decks take 1-3 weeks from footing pours to final railing installation. Multi-level decks, covered structures, and pergolas with electrical run 3-6 weeks. Material lead times for composite decking are typically 1-2 weeks — we order before the build date to avoid delays.'],
-    ['q' => 'Can you build a covered porch or pergola in Bend?', 'a' => 'Yes. We build covered porches, pergolas, shade structures, and timber-frame pavilions designed for Central Oregon\'s snow loads and wind conditions. Covered structures require engineered posts and footings rated for the snow load in your specific zone — Bend sees 30-50 lb/sq ft depending on elevation.'],
-    ['q' => 'Are your decks engineered for Bend snow loads?', 'a' => 'Yes. Every deck we build in the Bend area is engineered to handle the ground snow load specified in Oregon Structural Specialty Code for your zone — typically 30-50 lbs per square foot. Joists, beams, posts, and footings are all sized to handle that load with margin, not at the minimum.'],
+    ['q' => 'How much does a new deck cost in Eugene, Oregon?', 'a' => 'Deck costs in Eugene range from $30-$50 per square foot for pressure-treated lumber to $60-$100+ per square foot for composite or hardwood decking. A typical 300 sq ft composite deck runs $20,000-$35,000 installed, including railings, stairs, and footings. Complex multi-level designs and covered structures cost more.'],
+    ['q' => 'What decking material works best in the Eugene area?', 'a' => 'Composite decking (Trex, TimberTech) is the most popular choice in Eugene — it handles heavy rainfall, moisture exposure, and Oregon\'s wet winters without splitting, warping, or annual sealing. Cedar is a solid natural alternative but requires yearly maintenance. Pressure-treated pine is the most affordable but has a shorter lifespan in wet climates.'],
+    ['q' => 'Do I need a permit to build a deck in Lane County?', 'a' => 'Yes. Most decks over 30 inches above grade or attached to a structure require a building permit in Lane County or the City of Eugene. We handle all permitting, including structural plans, footing depth calculations, and inspection coordination from start to final sign-off.'],
+    ['q' => 'How long does it take to build a deck in Eugene?', 'a' => 'Most standard decks take 1-3 weeks from footing pours to final railing installation. Multi-level decks, covered structures, and pergolas with electrical run 3-6 weeks. Material lead times for composite decking are typically 1-2 weeks — we order before the build date to avoid delays.'],
+    ['q' => 'Can you build a covered porch or pergola in Eugene?', 'a' => 'Yes. We build covered porches, pergolas, shade structures, and timber-frame pavilions designed for the Willamette Valley\'s rain and wind conditions. Covered structures require engineered posts and footings rated for Oregon\'s structural code requirements, with proper drainage to handle Eugene\'s 47 inches of annual rainfall.'],
+    ['q' => 'Are your decks engineered for Oregon\'s wet climate?', 'a' => 'Yes. Every deck we build in the Eugene area is engineered to handle Oregon\'s rain and moisture loads per the Oregon Structural Specialty Code for your zone. Joists, beams, posts, and footings are all sized with proper drainage, moisture barriers, and rot-resistant materials — built for decades of Willamette Valley weather.'],
 ];
 
 // ── Schema Markup ─────────────────────────────────────────────
@@ -343,8 +343,8 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       <a href="/services/">Services</a><span class="breadcrumb-sep" aria-hidden="true">/</span>
       <span aria-current="page">Deck &amp; Outdoor Structures</span>
     </nav>
-    <h1>Deck &amp; Outdoor Structures in <span class="text-accent">Bend, Oregon</span></h1>
-    <p class="hero-answer"><?php echo htmlspecialchars($siteName); ?> builds custom decks, covered porches, pergolas, and timber-frame structures across Bend, Redmond, Sisters, and Central Oregon. Every outdoor structure is engineered for the region's snow loads, UV exposure, and freeze-thaw cycles — built for year-round use at elevation.</p>
+    <h1>Deck &amp; Outdoor Structures in <span class="text-accent">Eugene, Oregon</span></h1>
+    <p class="hero-answer"><?php echo htmlspecialchars($siteName); ?> builds custom decks, covered porches, pergolas, and timber-frame structures across Eugene, Springfield, Cottage Grove, and Lane County. Every outdoor structure is engineered for the region's heavy rainfall, moisture exposure, and wet winters — built for year-round use in the Willamette Valley.</p>
     <div class="hero-ctas">
       <a href="/contact/" class="btn-primary"><i data-lucide="file-text" aria-hidden="true"></i> Get a Free Estimate</a>
       <a href="tel:<?php echo $phonePlain; ?>" class="btn-secondary btn-secondary--light"><i data-lucide="phone" aria-hidden="true"></i> Call <?php echo $phone; ?></a>
@@ -352,7 +352,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
     <div class="hero-trust">
       <span><i data-lucide="shield-check" aria-hidden="true"></i> Licensed &amp; Insured</span>
       <span><i data-lucide="calendar" aria-hidden="true"></i> Since <?php echo $yearEstablished; ?></span>
-      <span><i data-lucide="map-pin" aria-hidden="true"></i> Central Oregon</span>
+      <span><i data-lucide="map-pin" aria-hidden="true"></i> Eugene &amp; Lane County</span>
     </div>
   </div>
   <div class="section-divider section-divider--bottom">
@@ -368,7 +368,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
     <div class="split-reverse">
       <div class="detail-image-stack reveal-left">
         <div class="img-primary">
-          <img src="<?php echo htmlspecialchars($clientPhotos[23]); ?>" alt="Custom deck construction by Marty Mar Construction in Bend, Oregon" width="500" height="400" loading="lazy">
+          <img src="<?php echo htmlspecialchars($clientPhotos[23]); ?>" alt="Custom deck construction by Marty Mar Construction in Eugene, Oregon" width="500" height="400" loading="lazy">
         </div>
         <div class="img-secondary">
           <img src="<?php echo htmlspecialchars($clientPhotos[24]); ?>" alt="Outdoor structure detail showing deck railing and finish work" width="250" height="200" loading="lazy">
@@ -376,14 +376,14 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       </div>
       <div class="detail-text reveal-up">
         <span class="eyebrow-label">Outdoor Living</span>
-        <h2>What Outdoor Structures Does <span class="text-accent">Marty Mar</span> Build in Bend?</h2>
-        <p class="answer-block">Marty Mar Construction builds custom decks, covered porches, pergolas, shade structures, and timber-frame pavilions throughout Bend and Central Oregon. Every structure is engineered for Oregon snow loads, UV exposure at 3,600 feet, and freeze-thaw soil conditions — with footings, posts, and framing sized for the high desert.</p>
+        <h2>What Outdoor Structures Does <span class="text-accent">Marty Mar</span> Build in Eugene?</h2>
+        <p class="answer-block">Marty Mar Construction builds custom decks, covered porches, pergolas, shade structures, and timber-frame pavilions throughout Eugene and Lane County. Every structure is engineered for Oregon's heavy rainfall, persistent moisture, and wet soil conditions — with footings, posts, and framing sized for the Willamette Valley.</p>
 
-        <p class="identity-sentence"><?php echo htmlspecialchars($siteName); ?> is a licensed Oregon general contractor based in Bend, building decks and outdoor structures across Central Oregon since <?php echo $yearEstablished; ?>.</p>
+        <p class="identity-sentence"><?php echo htmlspecialchars($siteName); ?> is a licensed Oregon general contractor based in Eugene, building decks and outdoor structures across Lane County since <?php echo $yearEstablished; ?>.</p>
 
-        <p>Building a deck in Bend isn't the same as building one in Portland or Eugene. At 3,600 feet, you're dealing with 30-50 lb/sq ft ground snow loads, 250+ days of UV exposure that bleaches and degrades unprotected materials, and freeze-thaw soil cycling that heaves footings poured too shallow. A deck built to sea-level specs won't last five years here.</p>
+        <p>Building a deck in Eugene means engineering for one of the wettest climates in the Pacific Northwest. With 47 inches of annual rainfall, persistent moisture that promotes rot and mold, and saturated clay soils that shift with the seasons, a deck built without proper drainage and moisture protection won't last. Outdoor structures here demand materials and methods that handle constant water exposure.</p>
 
-        <p>We engineer every outdoor structure for your specific zone. Footings go below the local frost line. Framing is sized for actual snow loads, not minimums. We use composite decking or naturally rot-resistant species rated for UV exposure — and we build with stainless or coated fasteners that won't corrode and streak.</p>
+        <p>We engineer every outdoor structure for your specific conditions. Footings go below the local frost line with proper drainage. Framing is sized for actual load conditions, not minimums. We use composite decking or naturally rot-resistant species rated for moisture exposure — and we build with stainless or coated fasteners that won't corrode and streak.</p>
 
         <p>Last updated: <?php echo date('F Y'); ?></p>
       </div>
@@ -400,26 +400,26 @@ $breadcrumbSchema = generateBreadcrumbSchema([
   <div class="container">
     <div class="section-title reveal-up">
       <span class="eyebrow-label">What We Build</span>
-      <h2>Which Outdoor Structure Is Right for Your <span class="text-accent">Bend Property</span>?</h2>
-      <p class="answer-block">The right outdoor structure depends on your lot, your usage pattern, and Bend's weather. Open decks maximize sun exposure. Covered porches extend the usable season through rain and snow. Pergolas split the difference — shade in summer, open sky when you want it.</p>
+      <h2>Which Outdoor Structure Is Right for Your <span class="text-accent">Eugene Property</span>?</h2>
+      <p class="answer-block">The right outdoor structure depends on your lot, your usage pattern, and Eugene's weather. Open decks maximize the dry summer months. Covered porches extend the usable season through Oregon's rainy fall, winter, and spring. Pergolas split the difference — shade in summer, open sky when you want it.</p>
     </div>
     <div class="structures-grid">
       <div class="structure-card card-tint-1 reveal-up reveal-delay-1">
         <div class="structure-card__img">
-          <img src="<?php echo htmlspecialchars($clientPhotos[25]); ?>" alt="Custom composite deck with mountain view in Bend, Oregon" width="400" height="250" loading="lazy">
+          <img src="<?php echo htmlspecialchars($clientPhotos[25]); ?>" alt="Custom composite deck built by Marty Mar Construction in Eugene, Oregon" width="400" height="250" loading="lazy">
         </div>
         <div class="structure-card__body">
           <h3>Custom Decks</h3>
-          <p>Ground-level, elevated, and multi-level composite or timber decks with railing systems, stairs, and integrated lighting. Engineered for Bend's snow loads.</p>
+          <p>Ground-level, elevated, and multi-level composite or timber decks with railing systems, stairs, and integrated lighting. Engineered for Eugene's wet climate.</p>
         </div>
       </div>
       <div class="structure-card card-tint-2 reveal-up reveal-delay-2">
         <div class="structure-card__img">
-          <img src="<?php echo htmlspecialchars($clientPhotos[26]); ?>" alt="Covered porch construction project in Central Oregon" width="400" height="250" loading="lazy">
+          <img src="<?php echo htmlspecialchars($clientPhotos[26]); ?>" alt="Covered porch construction project in Eugene, Oregon" width="400" height="250" loading="lazy">
         </div>
         <div class="structure-card__body">
           <h3>Covered Porches</h3>
-          <p>Roofed outdoor living spaces with sealed ceilings, integrated lighting, and structural posts rated for snow accumulation. Usable year-round in Bend.</p>
+          <p>Roofed outdoor living spaces with sealed ceilings, integrated lighting, and structural posts rated for Oregon's rain loads. Usable year-round in Eugene.</p>
         </div>
       </div>
       <div class="structure-card card-tint-3 reveal-up reveal-delay-3">
@@ -444,8 +444,8 @@ $breadcrumbSchema = generateBreadcrumbSchema([
   <div class="container">
     <div class="section-title reveal-up">
       <span class="eyebrow-label">Material Guide</span>
-      <h2>What Decking Material Works Best at <span class="text-accent">Bend's Elevation</span>?</h2>
-      <p class="answer-block">The best decking material for Bend depends on your budget, maintenance tolerance, and aesthetic preference. Composite decking offers the best long-term value for Central Oregon's UV and freeze-thaw conditions. Cedar looks natural but needs annual care. Pressure-treated is the most affordable entry point.</p>
+      <h2>What Decking Material Works Best in <span class="text-accent">Eugene's Wet Climate</span>?</h2>
+      <p class="answer-block">The best decking material for Eugene depends on your budget, maintenance tolerance, and aesthetic preference. Composite decking offers the best long-term value for the Willamette Valley's rain and moisture conditions. Cedar looks natural but needs annual care. Pressure-treated is the most affordable entry point.</p>
     </div>
     <div class="materials-table-wrap reveal-up">
       <table class="materials-table">
@@ -455,7 +455,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
             <th>Cost / sq ft</th>
             <th>Lifespan</th>
             <th>Maintenance</th>
-            <th>Bend Rating</th>
+            <th>Eugene Rating</th>
           </tr>
         </thead>
         <tbody>
@@ -514,7 +514,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       <div class="pcard reveal-up reveal-delay-2">
         <div class="pcard__icon"><i data-lucide="file-text" aria-hidden="true"></i></div>
         <h3>Permits &amp; Materials</h3>
-        <p>Pull Deschutes County permit, order decking and hardware, and schedule build date around material delivery.</p>
+        <p>Pull Lane County permit, order decking and hardware, and schedule build date around material delivery.</p>
       </div>
       <div class="pcard reveal-up reveal-delay-3">
         <div class="pcard__icon"><i data-lucide="hard-hat" aria-hidden="true"></i></div>
@@ -536,8 +536,8 @@ $breadcrumbSchema = generateBreadcrumbSchema([
   <div class="container">
     <div class="section-title reveal-up">
       <span class="eyebrow-label">Common Questions</span>
-      <h2>What Do Homeowners Ask About <span class="text-accent">Deck Building</span> in Bend?</h2>
-      <p class="answer-block">Homeowners considering a deck in Bend and Central Oregon typically ask about costs, materials, permits, snow load engineering, and build timelines. Below are the questions we hear most — with direct answers from our team.</p>
+      <h2>What Do Homeowners Ask About <span class="text-accent">Deck Building</span> in Eugene?</h2>
+      <p class="answer-block">Homeowners considering a deck in Eugene and Lane County typically ask about costs, materials, permits, moisture engineering, and build timelines. Below are the questions we hear most — with direct answers from our team.</p>
     </div>
     <div class="faq-list">
       <?php foreach ($pageFaqs as $i => $faq): ?>
@@ -557,12 +557,12 @@ $breadcrumbSchema = generateBreadcrumbSchema([
     <div class="section-title reveal-up">
       <span class="eyebrow-label">More Services</span>
       <h2>What Other <span class="text-accent">Construction Services</span> Do We Offer?</h2>
-      <p class="answer-block">Beyond decks and outdoor structures, Marty Mar Construction handles new home construction, room additions, whole-home remodeling, and kitchen and bathroom renovations across Central Oregon.</p>
+      <p class="answer-block">Beyond decks and outdoor structures, Marty Mar Construction handles new home construction, room additions, whole-home remodeling, and kitchen and bathroom renovations across the Eugene area.</p>
     </div>
     <div class="related-grid">
       <?php
       $relatedBullets = [
-          'new-home-construction'  => ['Custom floor plans for your lot', 'Foundation-to-finish oversight', 'Snow-load rated framing'],
+          'new-home-construction'  => ['Custom floor plans for your lot', 'Foundation-to-finish oversight', 'Moisture-resistant construction'],
           'home-additions'         => ['Seamless match to existing structure', 'Second-story expansions', 'ADU and garage conversions'],
           'remodeling-renovations' => ['Whole-home transformations', 'Structural and cosmetic work', 'On-schedule, on-budget delivery'],
           'bathroom-remodeling'    => ['Walk-in showers and soaking tubs', 'Custom tile and vanity work', 'Full gut or targeted upgrades'],
@@ -578,7 +578,7 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       ?>
       <article class="service-card-with-image card-tint-<?php echo $tint; ?> reveal-up reveal-delay-<?php echo $i + 1; ?>">
         <div class="service-card__image">
-          <img src="<?php echo htmlspecialchars($svc['image']); ?>" alt="<?php echo htmlspecialchars($svc['name']); ?> in Bend, Oregon" width="600" height="360" loading="lazy">
+          <img src="<?php echo htmlspecialchars($svc['image']); ?>" alt="<?php echo htmlspecialchars($svc['name']); ?> in Eugene, Oregon" width="600" height="360" loading="lazy">
         </div>
         <div class="service-card__body">
           <div class="service-card__icon"><i data-lucide="<?php echo htmlspecialchars($svc['icon']); ?>"></i></div>

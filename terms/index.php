@@ -12,7 +12,7 @@ $companyAddress    = $businessAddress;
 $lastUpdated       = 'May 15, 2026';
 
 $pageTitle       = 'Terms of Service | ' . $siteName;
-$pageDescription = 'Terms of Service for ' . $siteName . ' — terms governing your use of our website and services in Bend, OR and Central Oregon.';
+$pageDescription = 'Terms of Service for ' . $siteName . ' — terms governing your use of our website and services in Eugene, OR and the Eugene area.';
 $canonicalUrl    = $siteUrl . '/terms/';
 $currentPage     = 'legal';
 $cssVersion      = '5.0';
@@ -125,7 +125,7 @@ $cssVersion      = '5.0';
     <p>These Terms of Service ("Terms") constitute a legally binding agreement between you ("you" or "user") and <?php echo htmlspecialchars($companyName); ?>, a <?php echo htmlspecialchars($companyEntityType); ?> formed in the State of <?php echo htmlspecialchars($companyState); ?> ("Company," "we," "us," or "our"). By accessing or using our website, you agree to be bound by these Terms. If you do not agree, do not use our website.</p>
 
     <h2>Description of Services</h2>
-    <p><?php echo htmlspecialchars($companyName); ?> provides professional construction services as described on this website, including new home construction, home additions, remodeling, kitchen and bathroom renovations, and deck building in Central Oregon. The specific services available, service areas, and pricing are subject to change without notice. Descriptions of services on this website are for informational purposes and do not constitute a binding offer.</p>
+    <p><?php echo htmlspecialchars($companyName); ?> provides professional construction services as described on this website, including new home construction, home additions, remodeling, kitchen and bathroom renovations, and deck building in the Eugene area. The specific services available, service areas, and pricing are subject to change without notice. Descriptions of services on this website are for informational purposes and do not constitute a binding offer.</p>
 
     <h2>Use of This Website</h2>
     <p>You agree to use this website only for lawful purposes. You may not:</p>

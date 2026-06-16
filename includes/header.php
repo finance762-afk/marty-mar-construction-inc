@@ -39,7 +39,7 @@
           </ul>
         </li>
         <li>
-          <a href="/service-area/" <?php echo isActivePage('service-area') ? 'aria-current="page"' : ''; ?>>Service Area</a>
+          <a href="/service-area/" <?php echo isActivePage('service-area') ? 'aria-current="page"' : ''; ?>>Eugene &amp; Surrounding Areas</a>
         </li>
         <li>
           <a href="/about/" <?php echo isActivePage('about') ? 'aria-current="page"' : ''; ?>>About</a>
@@ -77,7 +77,7 @@
     <?php foreach ($services as $svc): ?>
     <li><a href="/services/<?php echo $svc['slug']; ?>/" class="mobile-sub-link"><?php echo htmlspecialchars($svc['name']); ?></a></li>
     <?php endforeach; ?>
-    <li><a href="/service-area/">Service Area</a></li>
+    <li><a href="/service-area/">Eugene &amp; Surrounding Areas</a></li>
     <li><a href="/about/">About</a></li>
     <li><a href="/contact/">Contact</a></li>
   </ul>

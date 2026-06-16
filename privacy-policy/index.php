@@ -12,7 +12,7 @@ $companyAddress    = $businessAddress;
 $lastUpdated       = 'May 15, 2026';
 
 $pageTitle       = 'Privacy Policy | ' . $siteName;
-$pageDescription = 'Privacy Policy for ' . $siteName . ' — how we collect, use, and protect your information. Serving Bend, OR and Central Oregon.';
+$pageDescription = 'Privacy Policy for ' . $siteName . ' — how we collect, use, and protect your information. Serving Eugene, OR and Lane County.';
 $canonicalUrl    = $siteUrl . '/privacy-policy/';
 $currentPage     = 'legal';
 $cssVersion      = '5.0';

@@ -4,8 +4,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 ?>
 <?php
 // ── Page-Level Setup ──────────────────────────────────────────
-$pageTitle       = 'About Marty Mar Construction | General Contractor Bend, OR | Since ' . $yearEstablished;
-$pageDescription = 'Learn about Marty Mar Construction Inc — a licensed general contractor serving Bend, Redmond, Sisters, and Central Oregon since ' . $yearEstablished . '. Meet the team behind ' . $yearsInBusiness . '+ years of custom homes, remodels, and additions.';
+$pageTitle       = 'About Marty Mar Construction | General Contractor Eugene, OR | Since ' . $yearEstablished;
+$pageDescription = 'Learn about Marty Mar Construction Inc — a licensed general contractor serving Eugene, Springfield, Cottage Grove, and Lane County since ' . $yearEstablished . '. Meet the team behind ' . $yearsInBusiness . '+ years of custom homes, remodels, and additions.';
 $canonicalUrl    = $siteUrl . '/about/';
 $ogImage         = $clientPhotos[3];
 $currentPage     = 'about';
@@ -426,8 +426,8 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       <span aria-current="page">About</span>
     </nav>
     <span class="eyebrow-label">About Our Company</span>
-    <h1>Building Central Oregon Since <span class="text-accent"><?php echo $yearEstablished; ?></span></h1>
-    <p class="about-hero-subtitle"><?php echo htmlspecialchars($siteName); ?> is a licensed general contractor based in <?php echo $address['city']; ?>, <?php echo $address['state']; ?>, delivering hands-on project management for custom homes, additions, and remodels across Deschutes County and beyond.</p>
+    <h1>Building the Eugene Area Since <span class="text-accent"><?php echo $yearEstablished; ?></span></h1>
+    <p class="about-hero-subtitle"><?php echo htmlspecialchars($siteName); ?> is a licensed general contractor based in <?php echo $address['city']; ?>, <?php echo $address['state']; ?>, delivering hands-on project management for custom homes, additions, and remodels across Lane County and beyond.</p>
   </div>
 
   <div class="section-divider section-divider--bottom">
@@ -449,17 +449,17 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       <div class="story-content reveal-left">
         <span class="eyebrow-label">Our Story</span>
         <h2>From First Framing Nail to <span class="text-accent">Full-Service Contractor</span></h2>
-        <p>Marty Mar started swinging a hammer in Central Oregon back in 2007 — not as a company, but as a craftsman who believed the person running the job should be the person on the job. That philosophy hasn't changed. <?php echo $yearsInBusiness; ?> years later, Marty Mar Construction Inc handles everything from ground-up custom homes to single-room remodels, and Marty is still the one coordinating your build, walking your site, and answering your calls.</p>
-        <p>We grew through referrals, not marketing budgets. Homeowners in NorthWest Crossing, the Old Mill District, Broken Top, and neighborhoods across Bend and Redmond keep sending their neighbors our way because we show up, communicate clearly, and deliver what we promise. No subcontractor runaround. No surprise change orders. One point of contact from estimate to final walkthrough.</p>
-        <p>Central Oregon's building environment is unique — volcanic soil, heavy snow loads, freeze-thaw foundation stress, and a permit process that demands local expertise. We've navigated Deschutes County permitting on hundreds of projects, and we build every structure to handle what Oregon's high desert throws at it.</p>
+        <p>Marty Mar started swinging a hammer in the Eugene area back in 2007 — not as a company, but as a craftsman who believed the person running the job should be the person on the job. That philosophy hasn't changed. <?php echo $yearsInBusiness; ?> years later, Marty Mar Construction Inc handles everything from ground-up custom homes to single-room remodels, and Marty is still the one coordinating your build, walking your site, and answering your calls.</p>
+        <p>We grew through referrals, not marketing budgets. Homeowners in South Hills, River Road, Friendly, Cal Young, and neighborhoods across Eugene and Springfield keep sending their neighbors our way because we show up, communicate clearly, and deliver what we promise. No subcontractor runaround. No surprise change orders. One point of contact from estimate to final walkthrough.</p>
+        <p>Lane County's building environment is unique — Willamette Valley clay soils, persistent rain and moisture management, seasonal flooding concerns, and a permit process that demands local expertise. We've navigated Lane County permitting on hundreds of projects, and we build every structure to handle what Oregon's wet climate throws at it.</p>
       </div>
 
       <div class="story-image-stack reveal-right">
         <div class="story-image-primary">
-          <img src="<?php echo htmlspecialchars($clientPhotos[3]); ?>" alt="Marty Mar Construction crew working on a home project in Bend, Oregon" width="600" height="450" loading="lazy">
+          <img src="<?php echo htmlspecialchars($clientPhotos[3]); ?>" alt="Marty Mar Construction crew working on a home project in Eugene, Oregon" width="600" height="450" loading="lazy">
         </div>
         <div class="story-image-secondary">
-          <img src="<?php echo htmlspecialchars($clientPhotos[12]); ?>" alt="Custom home construction detail by Marty Mar Construction in Central Oregon" width="400" height="300" loading="lazy">
+          <img src="<?php echo htmlspecialchars($clientPhotos[12]); ?>" alt="Custom home construction detail by Marty Mar Construction in Lane County, Oregon" width="400" height="300" loading="lazy">
         </div>
       </div>
     </div>
@@ -528,32 +528,32 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       <div class="timeline-item reveal-left reveal-delay-1">
         <div class="timeline-dot"></div>
         <span class="timeline-year">2007</span>
-        <h3>Founded in Bend</h3>
-        <p>Marty Mar Construction launched as a hands-on general contracting operation in Bend, Oregon, focused on residential remodeling and small additions across Deschutes County.</p>
+        <h3>Founded in Eugene</h3>
+        <p>Marty Mar Construction launched as a hands-on general contracting operation in Eugene, Oregon, focused on residential remodeling and small additions across Lane County.</p>
       </div>
       <div class="timeline-item reveal-left reveal-delay-2">
         <div class="timeline-dot"></div>
         <span class="timeline-year">2010</span>
         <h3>Expanded to New Home Construction</h3>
-        <p>After three years of successful remodels and referrals, we added full custom home construction — managing ground-up builds from foundation to finish across Central Oregon.</p>
+        <p>After three years of successful remodels and referrals, we added full custom home construction — managing ground-up builds from foundation to finish across the Eugene area.</p>
       </div>
       <div class="timeline-item reveal-left reveal-delay-3">
         <div class="timeline-dot"></div>
         <span class="timeline-year">2015</span>
-        <h3>Serving All of Central Oregon</h3>
-        <p>Grew our reach to include Redmond, Sisters, Sunriver, La Pine, and Prineville — building a reputation across a 40-mile radius for reliable, on-schedule work.</p>
+        <h3>Serving All of Lane County</h3>
+        <p>Grew our reach to include Springfield, Cottage Grove, Junction City, Veneta, and Creswell — building a reputation across the Willamette Valley for reliable, on-schedule work.</p>
       </div>
       <div class="timeline-item reveal-left reveal-delay-4">
         <div class="timeline-dot"></div>
         <span class="timeline-year">2020</span>
         <h3>500+ Projects Milestone</h3>
-        <p>Reached 500 completed residential projects — from bathroom refreshes to custom mountain homes — with a 4.9-star Google rating built entirely through word-of-mouth referrals.</p>
+        <p>Reached 500 completed residential projects — from bathroom refreshes to custom Willamette Valley homes — with a 4.9-star Google rating built entirely through word-of-mouth referrals.</p>
       </div>
       <div class="timeline-item reveal-left">
         <div class="timeline-dot"></div>
         <span class="timeline-year"><?php echo date('Y'); ?></span>
         <h3>Still Building, Still On-Site</h3>
-        <p><?php echo $yearsInBusiness; ?> years in, Marty still walks every jobsite. We continue to grow through referrals, transparent pricing, and builds that stand up to Central Oregon's demanding climate.</p>
+        <p><?php echo $yearsInBusiness; ?> years in, Marty still walks every jobsite. We continue to grow through referrals, transparent pricing, and builds that stand up to Lane County's demanding climate.</p>
       </div>
     </div>
   </div>
@@ -595,8 +595,8 @@ $breadcrumbSchema = generateBreadcrumbSchema([
       </div>
       <div class="credential-item reveal-up reveal-delay-4">
         <div class="credential-icon"><i data-lucide="building-2" aria-hidden="true"></i></div>
-        <h4>Deschutes County Permitted</h4>
-        <p>Hundreds of permits pulled and inspections passed across Bend, Redmond, and Deschutes County jurisdictions.</p>
+        <h4>Lane County Permitted</h4>
+        <p>Hundreds of permits pulled and inspections passed across Eugene, Springfield, and Lane County jurisdictions.</p>
       </div>
     </div>
   </div>
